@@ -10,9 +10,9 @@ Messages:
     Text: 已放棄所有領地包括已鎖定的領地. 你現在有 {0} 格可用的領地.
     Notes: '0: remaining blocks'
   RestoreNatureActivate:
-    Text: 準備回復自然界!  點擊右鍵來回復自然界, 或 /BasicClaims 來停止.
+    Text: 準備回復大自然風貌!  點擊右鍵來回復, 或 /BasicClaims 來停止.
   RestoreNatureAggressiveActivate:
-    Text: 積極模式啟動. 如果你想保留任何東西就不要使用這個功能!  點擊右鍵來積極回復自然界, 或 /BasicClaims 來停止.
+    Text: 積極模式啟動. 如果想要保留任何東西則請勿使用此功能!  點擊右鍵來積極回復大自然風貌, 或 /BasicClaims 來停止.
   FillModeActive:
     Text: 啟動半徑 {0} 的填充模式. 右鍵點擊一個區域來填充.
     Notes: '0: fill radius'
@@ -21,29 +21,29 @@ Messages:
   TransferClaimMissing:
     Text: 這裡沒有管理員領地. 站在一個你想要轉換的管理員領地裡.
   TransferClaimAdminOnly:
-    Text: 只有管理員領地可以被轉移給玩家.
+    Text: 只有管理員領地可被移轉給玩家.
   PlayerNotFound:
     Text: 沒有這個玩家.
   TransferTopLevel:
-    Text: 只有最上層的領地(不是子領定)可以被轉移. 站在子領定外且再試一次.
+    Text: 只有最上層領地(不是子領定)可被移轉. 站在子領定外再試一次.
   TransferSuccess:
-    Text: 已轉移領地.
+    Text: 已移轉領地.
   TrustListNoClaim:
     Text: 站在你感興趣的領地裡.
   ClearPermsOwnerOnly:
-    Text: 只有領地所有者可以清除所有權限.
+    Text: 只有領地所有者可以清除權限.
   UntrustIndividualAllClaims:
-    Text: 取消 {0} 在你領地的使用權. 如欲單獨設定某個領地的使用權, 請站在那個領地裡.
+    Text: 取消領地裡 {0} 的權限. 如欲單獨設定某個領地權限, 請站在那個領地裡.
     Notes: '0: untrusted player'
   UntrustEveryoneAllClaims:
-    Text: 取消全部玩家在你領地的使用權. 如欲單獨設定某個領地的使用權, 請站在那個領地裡.
+    Text: 取消領地裡其他玩家的權限. 如欲單獨設定某個領地權限, 請站在那個領地裡.
   NoPermissionTrust:
-    Text: 你沒有 {0} 授予的權限來管理這裡的權限.
+    Text: 你沒有被 {0} 賦予權限來管理這個領地的權限.
     Notes: '0: claim owner''s name'
   ClearPermissionsOneClaim:
-    Text: 清除這個領地的使用權. 如欲設定全部領地的使用權, 請站在領地外.
+    Text: 清除這個領地的權限. 如欲一次設定所有領地的權限, 請站在領地外.
   UntrustIndividualSingleClaim:
-    Text: 取消 {0} 在這個領地的使用權. 如欲設定全部領地的使用權, 請站在領地外.
+    Text: 取消領地裡 {0} 的權限. 如欲一次設定所有領地的權限, 請站在領地外.
     Notes: '0: untrusted player'
   OnlySellBlocks:
     Text: 這些領地只能賣, 不能買.
@@ -51,9 +51,9 @@ Messages:
     Text: 每格領地的售價為 {0}. 你的帳戶餘額為 {1}.
     Notes: '0: cost of one block; 1: player''s account balance'
   ClaimBlockLimit:
-    Text: 你已到達領地的上限. 你無法再購買了.
+    Text: 已到達領地佔有上限. 你無法再購買了.
   InsufficientFunds:
-    Text: 你沒有足夠的金錢. 你需要 {0}, 但你只有 {1}.
+    Text: 你沒有足夠的金錢. 你需要 {0}, 但只有 {1}.
     Notes: '0: total cost; 1: player''s account balance'
   PurchaseConfirmation:
     Text: 從你的帳戶扣除 {0} . 你現在有 {1} 格可用的領地.
@@ -64,31 +64,31 @@ Messages:
     Text: 每格領地價值為 {0}. 你有 {1} 格可用領地可賣出.
     Notes: '0: block value; 1: available blocks'
   NotEnoughBlocksForSale:
-    Text: 你沒有那麼多可用領地可賣出.
+    Text: 你沒有那麼多格領地可賣出.
   BlockSaleConfirmation:
     Text: 已在你的帳戶存入 {0} . 你現在有 {1} 格可用的領地.
     Notes: '0: amount deposited; 1: remaining blocks'
   AdminClaimsMode:
-    Text: 啟動管理員領地模式. 所有的領定都是免費的並且可被其他管理員編輯.
+    Text: 啟動管理員領地模式. 所有的領地都是免費的並且可被其他管理員編輯.
   BasicClaimsMode:
     Text: 回到一般領地模式.
   SubdivisionMode:
-    Text: 子領定模式. 使用鏟子(Shovel)在你擁有的領地裡來劃分子領定. 使用 /basicclaims 來結束.
+    Text: 子領定模式. 使用鏟子(Shovel)在你擁有的領地裡來劃分子領定. 輸入 /basicclaims 來結束.
   SubdivisionDemo:
-    Text: '領定教學 - http://tinyurl.com/7urdtue'
+    Text: '領定教學：http://tinyurl.com/7urdtue'
   DeleteClaimMissing:
     Text: 這裡沒有領地.
   DeletionSubdivisionWarning:
-    Text: 這個領地包括子領地. 如果你確定要刪除, 再次輸入 /DeleteClaim .
+    Text: 這個領地包含子領地. 如果你確定要刪除, 再次輸入 /DeleteClaim .
   DeleteSuccess:
     Text: 已刪除領地.
   CantDeleteAdminClaim:
     Text: 你沒有權限刪除管理員領地.
   DeleteAllSuccessExcludingLocked:
-    Text: 刪除所有 {0} 的領定但不包含鎖定的領地.
+    Text: 刪除所有 {0} 的領定但不含已鎖定領地.
     Notes: '0: owner''s name'
   DeleteAllSuccessIncludingLocked:
-    Text: 刪除所有 {0} 的領定包含已鎖定的領地.
+    Text: 刪除所有 {0} 的領定包含已鎖定領地.
     Notes: '0: owner''s name'
   NoDeletePermission:
     Text: 你沒有權限刪除這個領地.
@@ -100,7 +100,7 @@ Messages:
   NotTrappedHere:
     Text: 你可以在這裡建設. 自己想辦法.
   TrappedOnCooldown:
-    Text: 你在最近 {0} 分鐘內使用過 /trapped 指令. 你還必須等 {1} 分鐘才能再次使用.
+    Text: 你在最近 {0} 分鐘內使用過 /trapped 指令. 你必須再等 {1} 分鐘才能使用.
     Notes: '0: default cooldown hours; 1: remaining minutes'
   RescuePending:
     Text: 如果你站立 10 秒不動, 你將會被傳送出去. 請稍待.
@@ -116,26 +116,26 @@ Messages:
   NoSiegeDefenseless:
     Text: 這個玩家手無寸鐵. 請換個人吧.
   AlreadyUnderSiegePlayer:
-    Text: '{0} 已經被圍攻. 加入派對吧!'
+    Text: '{0} 正被圍城中. 加入派對吧!'
     Notes: '0: defending player'
   AlreadyUnderSiegeArea:
-    Text: 這個區域正被圍攻. 加入派對吧!
+    Text: 這個區域正被圍城中. 加入派對吧!
   NoSiegeAdminClaim:
     Text: 這個區域已停用圍城模式.
   SiegeOnCooldown:
-    Text: 你對這個玩家/領地仍然在圍成模式的冷卻期間. 尋找別的受害者吧.
+    Text: 這個玩家/領地仍然在圍成模式的冷卻時間. 尋找別的受害者吧.
   SiegeAlert:
-    Text: 你正被圍攻!  如果你現在登出, 你將會死亡. 你必須擊敗 {0}, 等到他放棄或逃亡.
+    Text: 你正被圍城中! 如果你現在登出將會死亡. 你必須擊敗 {0}, 或等到他放棄或逃亡.
     Notes: '0: attacker name'
   SiegeConfirmed:
-    Text: 圍城行動已開始!  如果你現在登出, 你將會死亡. 你必須擊敗 {0}, 趕走他或認輸離開.
+    Text: 圍城行動已開始! 如果你現在登出將會死亡. 你必須擊敗 {0}, 趕走他或讓他認輸離開.
     Notes: '0: defender name'
   AbandonClaimMissing:
-    Text: 站在你想要刪除的領地裡, 或考慮使用 /AbandonAllClaims.
+    Text: 站在你想要放棄的領地裡, 或考慮使用 /AbandonAllClaims.
   NotYourClaim:
     Text: 這不是你的領地.
   DeleteTopLevelClaim:
-    Text: 如欲刪除子領地, 站在子領地裡面. 或者使用 /AbandonTopLevelClaim 來刪除這個領地和所有的子領地.
+    Text: 如欲刪除子領地, 站在子領地裡面. 或者使用 /AbandonTopLevelClaim 來放棄這個領地和所屬的子領地.
   AbandonSuccess:
     Text: 放棄領地. 你現在有 {0} 格可用的領地.
     Notes: '0: remaining claim blocks'
@@ -183,7 +183,7 @@ Messages:
   ChestFull:
     Text: 箱子已滿了.
   DonationSuccess:
-    Text: 物品已轉移到箱子裡!
+    Text: 物品已移轉到箱子裡!
   PlayerTooCloseForFire:
     Text: 你無法在 {0} 的身邊起火.
     Notes: '0: other player''s name'
@@ -202,7 +202,7 @@ Messages:
   ThatPlayerPvPImmune:
     Text: 你不能傷害無法自我防衛的玩家.
   CantFightWhileImmune:
-    Text: 在你受到 PVP 保護時你不能和某人戰鬥.
+    Text: 在你受到 PvP 保護時你不能和某人戰鬥.
   NoDamageClaimedEntity:
     Text: 這屬於 {0} 的.
     Notes: '0: owner name'
@@ -212,11 +212,11 @@ Messages:
     Text: 你還可以擁有 {0} 格領地.
     Notes: '0: remaining blocks'
   CreativeBasicsDemoAdvertisement:
-    Text: '領地教學 - http://tinyurl.com/c7bajb8'
+    Text: '領地教學：http://tinyurl.com/c7bajb8'
   SurvivalBasicsDemoAdvertisement:
-    Text: '領地教學 - http://tinyurl.com/6nkwegj'
+    Text: '領地教學：http://tinyurl.com/6nkwegj'
   TrappedChatKeyword:
-    Text: trapped
+    Text: 陷阱
     Notes: When mentioned in chat, players get information about the /trapped command.
   TrappedInstructions:
     Text: 你被卡在某人的領地陷阱裡?  試試看 /trapped 指令.
@@ -365,11 +365,11 @@ Messages:
     Text: '  最後一次登入 - {0} 天前.'
     Notes: '0: number of full days since last login'
   BuildingOutsideClaims:
-    Text: 其他的玩家可以在這裡破壞你的心血!  請考慮使用金鏟子(golden shovel)來佔有並保護你的領地.
+    Text: 其他的玩家可以在這破壞你的心血!  請考慮使用金鏟子(golden shovel)來佔有領地並保護你的建築.
   TrappedWontWorkHere:
     Text: 很抱歉, 無法找到一個安全的地方可供你傳送. 請聯絡管理員, 如果你等不急也可以輸入 /kill 來自殺.
   CommandBannedInPvP:
-    Text: 你無法在 PvP 戰鬥中使用那各指令.
+    Text: 你無法在 PvP 戰鬥中使用那個指令.
   UnclaimCleanupWarning:
     Text: 你放棄的領地將會被其他的玩家破壞或管理員清除. 如果想保留任何你的建築, 你必須再次佔有它.
   BuySellNotConfigured:
@@ -377,9 +377,9 @@ Messages:
   NoTeleportPvPCombat:
     Text: 你無法在和其他玩家戰鬥時傳送.
   NoTNTDamageAboveSeaLevel:
-    Text: '警告: TNT 將無法破壞水平面上的方塊.'
+    Text: '警告： TNT 將無法破壞水平面上的方塊.'
   NoTNTDamageClaims:
-    Text: '警告: TNT 將無法破壞領地裡的方塊.'
+    Text: '警告： TNT 將無法破壞領地裡的方塊.'
   IgnoreClaimsAdvertisement:
     Text: 如果要強制變更, 輸入 /IgnoreClaims.
   NoPermissionForCommand:
@@ -393,7 +393,7 @@ Messages:
   ClaimExplosivesAdvertisement:
     Text: 如要允許爆炸摧毀這個領地的方塊, 輸入 /ClaimExplosions.
   PlayerInPvPSafeZone:
-    Text: 這個玩家在 PvP 安全區域.
+    Text: 這個玩家正在 PvP 安全區域.
   ClaimLocked:
     Text: 這個領地已開啟鎖定模式以防止被刪除. 輸入 /unlockclaim 來解鎖.
   ClaimUnlocked:
@@ -427,14 +427,14 @@ Messages:
     Text: '{0} 在保衛你的領地時被殺害!'
     Notes: 0:Type of tamed animal;1:Attacker
   NoGiveClaimsPermission:
-    Text: 你沒有權限將你的領地轉移給其他玩家
+    Text: 你沒有權限將你的領地移轉給其他玩家
   NoAdminClaimsPermission:
     Text: 你需要管理員權限才能這麼作.
   GiveSuccessSender:
-    Text: 領地擁有者已從 {0} 轉移給 {1}.
+    Text: 領地擁有者已從 {0} 移轉給 {1}.
     Notes: 0:Sender;1:Recipient
   GiveSuccessTarget:
-    Text: '{0} 轉移一個領地給你.'
+    Text: '{0} 移轉一個領地給你.'
     Notes: 0:Sender
   RemainingBlocksWorld:
     Text: 你在這個世界還可以佔有 {0} 格領地.
