@@ -17,11 +17,11 @@ Messages:
     Text: 啟動半徑 {0} 的填充模式. 右鍵點擊一個區域來填充.
     Notes: '0: fill radius'
   TransferClaimPermission:
-    Text: 這個指令需要管理者領地權限.
+    Text: 這個指令需要管理員領地權限.
   TransferClaimMissing:
-    Text: 這裡沒有管理者領地. 站在一個你想要轉換的管理者領地裡.
+    Text: 這裡沒有管理員領地. 站在一個你想要轉換的管理員領地裡.
   TransferClaimAdminOnly:
-    Text: 只有管理者領地可以被轉移給玩家.
+    Text: 只有管理員領地可以被轉移給玩家.
   PlayerNotFound:
     Text: 沒有這個玩家.
   TransferTopLevel:
@@ -69,7 +69,7 @@ Messages:
     Text: 已在你的帳戶存入 {0} . 你現在有 {1} 格可用的領地.
     Notes: '0: amount deposited; 1: remaining blocks'
   AdminClaimsMode:
-    Text: 啟動管理者領地模式. 所有的領定都是免費的並且可被其他管理員編輯.
+    Text: 啟動管理員領地模式. 所有的領定都是免費的並且可被其他管理員編輯.
   BasicClaimsMode:
     Text: 回到一般領地模式.
   SubdivisionMode:
@@ -83,7 +83,7 @@ Messages:
   DeleteSuccess:
     Text: 已刪除領地.
   CantDeleteAdminClaim:
-    Text: 你沒有權限刪除管理者領地.
+    Text: 你沒有權限刪除管理員領地.
   DeleteAllSuccessExcludingLocked:
     Text: 刪除所有 {0} 的領定但不包含鎖定的領地.
     Notes: '0: owner''s name'
@@ -93,7 +93,7 @@ Messages:
   NoDeletePermission:
     Text: 你沒有權限刪除這個領地.
   AllAdminDeleted:
-    Text: 刪除所有管理者領地.
+    Text: 刪除所有管理員領地.
   AdjustBlocksSuccess:
     Text: 調整 {0} 的額外可用領地 {1} . 新的額外可用領地為 {2} 格.
     Notes: '0: player; 1: adjustment; 2: new total'
@@ -221,228 +221,227 @@ Messages:
   TrappedInstructions:
     Text: 你被卡在某人的領地陷阱裡?  試試看 /trapped 指令.
   PvPNoDrop:
-    Text: You can't drop items while in PvP combat.
+    Text: 你不能在 PvP 戰鬥中丟棄物品.
   SiegeNoTeleport:
-    Text: You can't teleport out of a besieged area.
+    Text: 你不能從圍城區域中傳送出去.
   BesiegedNoTeleport:
-    Text: You can't teleport into a besieged area.
+    Text: 你不能傳送到圍城區域中.
   SiegeNoContainers:
-    Text: You can't access containers while involved in a siege.
+    Text: 你不能在參與圍城行動時存取容器.
   PvPNoContainers:
-    Text: You can't access containers during PvP combat.
+    Text: 你不能在 PvP 戰鬥中存取容器.
   PvPImmunityEnd:
-    Text: Now you can fight with other players.
+    Text: 你現在可以和其他的玩家戰鬥了.
   NoBedPermission:
-    Text: '{0} hasn''t given you permission to sleep here.'
+    Text: '{0} 並沒有賦予你在這裡睡覺的權限.'
     Notes: '0: claim owner'
   NoWildernessBuckets:
-    Text: You may only dump buckets inside your claim(s) or underground.
+    Text: 你只能在你的領地或地底下倒出桶子裡的東西.
   NoLavaNearOtherPlayer:
-    Text: You can't place lava this close to {0}.
+    Text: 你不能在 {0} 的身邊放置岩漿.
     Notes: '0: nearby player'
   TooFarAway:
-    Text: That's too far away.
+    Text: 距離太遠了.
   BlockNotClaimed:
-    Text: No one has claimed this block.
+    Text: 沒有人佔有這塊領地.
   BlockClaimed:
-    Text: That block has been claimed by {0}.
+    Text: 這塊領地已被 {0} 佔有.
     Notes: '0: claim owner'
   SiegeNoShovel:
-    Text: You can't use your shovel tool while involved in a siege.
+    Text: 當你在圍城行動時不能使用工具鏟(shovel).
   RestoreNaturePlayerInChunk:
-    Text: Unable to restore. {0} is in that chunk.
+    Text: 無法還原. {0} 正在那個區塊裡.
     Notes: '0: nearby player'
   NoCreateClaimPermission:
-    Text: You don't have permission to claim land.
+    Text: 你沒有權限佔有領地.
   ResizeClaimTooSmall:
-    Text: This new size would be too small. Claims must be at least {0} x {0}.
+    Text: 新的範圍太小了. 領地必須至少等於 {0} x {0}.
     Notes: '0: minimum claim size'
   ResizeNeedMoreBlocks:
-    Text: You don't have enough blocks for this size. You need {0} more.
+    Text: 你的可用領地不足以擴張到這個範圍. 你還需要 {0} 塊.
     Notes: '0: how many needed'
   NoCreativeUnClaim:
-    Text: You can't unclaim this land. You can only make this claim larger or create additional claims.
+    Text: 你無法放棄這片領地. 你只能擴張這個領地或佔有新的領地.
   ClaimResizeSuccess:
-    Text: Claim resized. You now have {0} available claim blocks.
+    Text: 已重新規劃領地大小. 你現在有 {0} 塊可用領地.
     Notes: '0: remaining blocks'
   ResizeFailOverlap:
-    Text: Can't resize here because it would overlap another nearby claim.
+    Text: 無法重新規劃領地大小, 會和其他領地重疊.
   ResizeFailOutsideParent:
-    Text: Cannot resize subdivision as it would extend outside the containing claim.
+    Text: 無法重新規劃子領地大小, 將會超出領地範圍.
   ResizeStart:
-    Text: Resizing claim. Use your shovel again at the new location for this corner.
+    Text: 重新規劃領地大小. 在新的角落使用你的鏟子(shovel).
   ResizeFailOverlapSubdivision:
-    Text: You can't create a subdivision here because it would overlap another subdivision. Consider /abandonclaim to delete it, or use your shovel at a corner to resize it.
+    Text: 你無法創造新的子領地, 將會和其他的子領地重疊. 考慮使用 /abandonclaim 來刪除它, 或在角落使用鏟子(shovel)來改變它的大小.
   SubdivisionStart:
-    Text: Subdivision corner set!  Use your shovel at the location for the opposite corner of this new subdivision.
+    Text: 已設定子領地角落! 在這個子領地的對面角落使用鏟子(shovel).
   CreateSubdivisionOverlap:
-    Text: Your selected area overlaps another subdivision.
+    Text: 你選擇的區域和其他的子領地重疊.
   SubdivisionSuccess:
-    Text: Subdivision created!  Use /trust to share it with friends.
+    Text: 已創造子領地! 使用 /trust 來和朋友分享.
   CreateClaimFailOverlap:
-    Text: You can't create a claim here because it would overlap your other claim. Use /abandonclaim to delete it, or use your shovel at a corner to resize it.
+    Text: 你無法在這創造領地, 將會和你的其他領地重疊. 使用 /abandonclaim 來刪除它, 或在角落使用鏟子(shovel)來改變它的大小.
   CreateClaimFailOverlapOtherPlayer:
-    Text: You can't create a claim here because it would overlap {0}'s claim.
+    Text: 你無法在這創造領地, 將會和 {0} 的領地重疊.
     Notes: '0: other claim owner'
   ClaimsDisabledWorld:
-    Text: Land claims are disabled in this world.
+    Text: 這個世界無法擁有領地.
   PlayerClaimLimit:
-    Text: You have reached the claim limit ({0}) and cannot create new claims.
+    Text: 你已到達領地持有上限({0})以至於無法創造領地.
     Notes: 0:Configuration Claim Limit.
   ClaimStart:
-    Text: Claim corner set!  Use the shovel again at the opposite corner to claim a rectangle of land. To cancel, put your shovel away.
+    Text: 已設定領地角落! 在這個領地的對面角落使用鏟子(shovel). 如果要取消, 放下你的鏟子(shovel).
   NewClaimTooSmall:
-    Text: This claim would be too small. Any claim must be at least {0} x {0}.
+    Text: 這個領地太小了. 領地必須至少等於 {0} x {0}.
     Notes: '0: minimum claim size'
   CreateClaimInsufficientBlocks:
-    Text: You don't have enough blocks to claim that entire area. You need {0} more blocks.
+    Text: 你的可用領地不足以涵蓋這個區域. 你還需要 {0} 塊.
     Notes: '0: additional blocks needed'
   AbandonClaimAdvertisement:
-    Text: To delete another claim and free up some blocks, use /AbandonClaim.
+    Text: 如果要刪除其他的領地來釋放可用領地空間, 請使用 /AbandonClaim.
   CreateClaimFailOverlapShort:
-    Text: Your selected area overlaps an existing claim.
+    Text: 你選擇的區域和現有的領地重疊.
   CreateClaimSuccess:
-    Text: Claim created!  Use /trust to share it with friends.
+    Text: 已創造領地! 使用 /trust 來和朋友分享.
   SiegeWinDoorsOpen:
-    Text: Congratulations!  Buttons and levers are temporarily unlocked (five minutes).
+    Text: 恭喜! 按鈕和拉桿已暫時解鎖(5分鐘).
   RescueAbortedMoved:
-    Text: You moved!  Rescue cancelled.
+    Text: 你移動了! 放棄救援.
   SiegeDoorsLockedEjection:
-    Text: Looting time is up!  Ejected from the claim.
+    Text: 掠奪時間!  去領地裡搜刮吧.
   NoModifyDuringSiege:
-    Text: Claims can't be modified while under siege.
+    Text: 領地無法在圍城行動時被修改.
   OnlyOwnersModifyClaims:
-    Text: Only {0} can modify this claim.
+    Text: 只有 {0} 可以修改這個領地.
     Notes: '0: owner name'
   NoBuildUnderSiege:
-    Text: This claim is under siege by {0}. No one can build here.
+    Text: 這個領地正被 {0} 圍城中. 沒有人可以在這裡建設.
     Notes: '0: attacker name'
   NoBuildPvP:
-    Text: You can't build in claims during PvP combat.
+    Text: 你無法在 PvP 戰鬥中建設.
   NoBuildPermission:
-    Text: You don't have {0}'s permission to build here.
+    Text: 你沒有 {0} 賦予的建設權限.
     Notes: '0: owner name'
   NonSiegeMaterial:
-    Text: That material is too tough to break.
+    Text: 這個物品太硬以至於無法破壞.
   NoOwnerBuildUnderSiege:
-    Text: You can't make changes while under siege.
+    Text: 你無法在圍城行動中建設.
   NoAccessPermission:
-    Text: You don't have {0}'s permission to use that.
+    Text: 你沒有 {0} 賦予的權限來使用它.
     Notes: '0: owner name. access permission controls buttons, levers, and beds'
   NoContainersSiege:
-    Text: This claim is under siege by {0}. No one can access containers here right now.
+    Text: 這塊領地正被 {0} 圍城中. 現在沒有人可以存取這裡的容器.
     Notes: '0: attacker name'
   NoContainersPermission:
-    Text: You don't have {0}'s permission to use that.
+    Text: 你沒有 {0} 賦予的權限來使用它.
     Notes: '0: owner''s name. containers also include crafting blocks'
   OwnerNameForAdminClaims:
-    Text: an administrator
+    Text: 管理員
     Notes: as in 'You don't have an administrator's permission to build here.'
   ClaimTooSmallForEntities:
-    Text: This claim isn't big enough for that. Try enlarging it.
+    Text: 這個領地太小了. 想辦法擴張它.
   TooManyEntitiesInClaim:
-    Text: This claim has too many entities already. Try enlarging the claim or removing some animals, monsters, paintings, or minecarts.
+    Text: 這個領地中已有太多的個體. 想辦法擴張它或移除一些 動物/怪物/畫框(paintings)/礦車(minecarts).
   YouHaveNoClaims:
-    Text: You don't have any land claims.
+    Text: 你沒有任何的領地.
   ConfirmFluidRemoval:
-    Text: Abandoning this claim will remove all your lava and water. If you're sure, use /AbandonClaim again.
+    Text: 放棄這個領地將會移除你所有的岩漿和水. 如果你確定要這麼作, 再次輸入 /AbandonClaim.
   AutoBanNotify:
     Text: Auto-banned {0}({1}). See logs for details.
   AdjustGroupBlocksSuccess:
-    Text: 'Adjusted bonus claim blocks for players with the {0} permission by {1}. New
-      total: {2}.'
+    Text: 調整 {0} 的額外可用領地 {1} . 新的額外可用領地為 {2} 格.
     Notes: '0: permission; 1: adjustment amount; 2: new total bonus'
   InvalidPermissionID:
-    Text: Please specify a player name, or a permission in [brackets].
+    Text: 請指定一個玩家名稱, 或放在括號[]中的權限名稱.
   UntrustOwnerOnly:
-    Text: Only {0} can revoke permissions here.
+    Text: 只有 {0} 可以取消這裡的權限.
     Notes: '0: claim owner''s name'
   HowToClaimRegex:
     Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
     Notes: This is a Java Regular Expression. Look it up before editing!  It's used to tell players about the demo video when they ask how to claim land.
   NoBuildOutsideClaims:
-    Text: You can't build here unless you claim some land first.
+    Text: 你必須先佔有領地才能在這裡建造.
   PlayerOfflineTime:
-    Text: '  Last login: {0} days ago.'
+    Text: '  最後一次登入 - {0} 天前.'
     Notes: '0: number of full days since last login'
   BuildingOutsideClaims:
-    Text: Other players can undo your work here!  Consider using a golden shovel to claim this area so that your work will be protected.
+    Text: 其他的玩家可以在這裡破壞你的心血!  請考慮使用金鏟子(golden shovel)來佔有並保護你的領地.
   TrappedWontWorkHere:
-    Text: Sorry, unable to find a safe location to teleport you to. Contact an admin, or consider /kill if you don't want to wait.
+    Text: 很抱歉, 無法找到一個安全的地方可供你傳送. 請聯絡管理員, 如果你等不急也可以輸入 /kill 來自殺.
   CommandBannedInPvP:
-    Text: You can't use that command while in PvP combat.
+    Text: 你無法在 PvP 戰鬥中使用那各指令.
   UnclaimCleanupWarning:
-    Text: The land you've unclaimed may be changed by other players or cleaned up by administrators. If you've built something there you want to keep, you should reclaim it.
+    Text: 你放棄的領地將會被其他的玩家破壞或管理員清除. 如果想保留任何你的建築, 你必須再次佔有它.
   BuySellNotConfigured:
-    Text: Sorry, buying anhd selling claim blocks is disabled.
+    Text: 不好意思, 買賣領定的功能已停用.
   NoTeleportPvPCombat:
-    Text: You can't teleport while fighting another player.
+    Text: 你無法在和其他玩家戰鬥時傳送.
   NoTNTDamageAboveSeaLevel:
-    Text: 'Warning: TNT will not destroy blocks above sea level.'
+    Text: '警告: TNT 將無法破壞水平面上的方塊.'
   NoTNTDamageClaims:
-    Text: 'Warning: TNT will not destroy claimed blocks.'
+    Text: '警告: TNT 將無法破壞領地裡的方塊.'
   IgnoreClaimsAdvertisement:
-    Text: To override, use /IgnoreClaims.
+    Text: 如果要強制變更, 輸入 /IgnoreClaims.
   NoPermissionForCommand:
-    Text: You don't have permission to do that.
+    Text: 你無權那麼作.
   ClaimsListNoPermission:
-    Text: You don't have permission to get information about another player's land claims.
+    Text: 你沒有權限取得其他玩家的領地資訊.
   ExplosivesDisabled:
-    Text: This claim is now protected from explosions. Use /ClaimExplosions again to disable.
+    Text: 這個領地已開啟防爆功能. 再次輸入 /ClaimExplosions 來停用防爆.
   ExplosivesEnabled:
-    Text: This claim is now vulnerable to explosions. Use /ClaimExplosions again to re-enable protections.
+    Text: 這個領地已關閉防爆功能. 在次輸入 /ClaimExplosions 來啟用防爆.
   ClaimExplosivesAdvertisement:
-    Text: To allow explosives to destroy blocks in this land claim, use /ClaimExplosions.
+    Text: 如要允許爆炸摧毀這個領地的方塊, 輸入 /ClaimExplosions.
   PlayerInPvPSafeZone:
-    Text: That player is in a PvP safe zone.
+    Text: 這個玩家在 PvP 安全區域.
   ClaimLocked:
-    Text: This claim has been successfully locked against accidental/automatic deletion. Use /unlockclaim to unlock.
+    Text: 這個領地已開啟鎖定模式以防止被刪除. 輸入 /unlockclaim 來解鎖.
   ClaimUnlocked:
-    Text: This claim has been successfully unlocked.
+    Text: 這個領地已解鎖.
   DeleteLockedClaimWarning:
-    Text: This claim is locked. If you're sure you want to delete it, use /DeleteClaim again.
+    Text: 這個領地已鎖定. 如果你確定要刪除它, 再次輸入 /DeleteClaim.
   ConfirmAbandonLockedClaim:
-    Text: This claim has been locked. If you really want to abandon it, use /AbandonClaim again.
+    Text: 這個領地已鎖定. 如果你確定要放棄它, 再次輸入 /AbandonClaim.
   LoginSpamWait:
-    Text: You must wait {0} more minutes before logging-in again.
+    Text: 你必須等待 {0} 分鐘才能再次登入.
   AbandonClaimRestoreWarning:
-    Text: Abandoning this claim will restore nature! If you still want to abandon it, use /abandonclaim again.
+    Text: 放棄的領地將會回復為大自然風貌! 如果你確定要放棄它, 再次輸入 /abandonclaim.
   NoVillagerTradeOutsideClaims:
-    Text: You cannot trade with Villagers outside of Claims.
+    Text: 你無法在領地外和村民交易.
   ClearManagersNotFound:
-    Text: You must be in a claim to clear it's Managers.
+    Text: 你必須在領地內才能清除管理員.
   ClearManagersNotOwned:
-    Text: Only {0} can clear managers in their Claim.
+    Text: 只有 {0} 可以清除領地理的管理員.
     Notes: 0:Claim Owner
   ClearManagersSuccess:
-    Text: Cleared all Managers in this Claim.
+    Text: 已清除這個領地裡所有的管理員.
   ClearManagersNotAdmin:
-    Text: Only Administrators can change managers on an admin claim.
+    Text: 只有管理員可以改變管理員領地.
   GroupNotFound:
-    Text: Group {0} Not found.
+    Text: 群組 {0} 不存在.
     Notes: 0:Name of Group
   ConfigDisabled:
-    Text: '{0} has been disabled for this location.'
+    Text: '{0} 已在這個區域被停用.'
     Notes: 0:name of operation
   TamedDeathDefend:
-    Text: A {0} has been killed in defense of your Claim!
+    Text: '{0} 在保衛你的領地時被殺害!'
     Notes: 0:Type of tamed animal;1:Attacker
   NoGiveClaimsPermission:
-    Text: You do not have Permission to Give your Claims to other players
+    Text: 你沒有權限將你的領地轉移給其他玩家
   NoAdminClaimsPermission:
-    Text: You need Administrator Claims Permission to do that.
+    Text: 你需要管理員權限才能這麼作.
   GiveSuccessSender:
-    Text: Claim Owner changed from {0} to {1} Successfully.
+    Text: 領地擁有者已從 {0} 轉移給 {1}.
     Notes: 0:Sender;1:Recipient
   GiveSuccessTarget:
-    Text: '{0} has transferred a Claim to you.'
+    Text: '{0} 轉移一個領地給你.'
     Notes: 0:Sender
   RemainingBlocksWorld:
-    Text: You may claim up to {0} more blocks in this world.
+    Text: 你在這個世界還可以佔有 {0} 格領地.
     Notes: '0: remaining blocks in world'
   RemainingClaimsWorld:
-    Text: You may make {0} more claims in this world.
+    Text: 你在這個世界還可以擁有 {0} 塊領地.
     Notes: '0: remaining claims in world.'
   InsufficientWorldBlocks:
-    Text: You've used too many claim blocks in this world. You need to free up {0} to make that claim.
+    Text: 你在這個世界已經佔有太多格領地. 你必須先釋放 {0} 格領地.
     Notes: '0: required claim blocks'
