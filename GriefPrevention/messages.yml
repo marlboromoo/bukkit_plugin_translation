@@ -75,7 +75,7 @@ Messages:
   SubdivisionMode:
     Text: 子領定模式. 使用鏟子(Shovel)在你擁有的領地裡來劃分子領定. 輸入 /basicclaims 來結束.
   SubdivisionDemo:
-    Text: '領定教學：http://tinyurl.com/7urdtue'
+    Text: 領定教學： http://tinyurl.com/7urdtue
   DeleteClaimMissing:
     Text: 這裡沒有領地.
   DeletionSubdivisionWarning:
@@ -212,9 +212,9 @@ Messages:
     Text: 你還可以擁有 {0} 格領地.
     Notes: '0: remaining blocks'
   CreativeBasicsDemoAdvertisement:
-    Text: '領地教學：http://tinyurl.com/c7bajb8'
+    Text: 領地教學： http://tinyurl.com/c7bajb8
   SurvivalBasicsDemoAdvertisement:
-    Text: '領地教學：http://tinyurl.com/6nkwegj'
+    Text: 領地教學： http://tinyurl.com/6nkwegj
   TrappedChatKeyword:
     Text: 陷阱
     Notes: When mentioned in chat, players get information about the /trapped command.
@@ -377,9 +377,9 @@ Messages:
   NoTeleportPvPCombat:
     Text: 你無法在和其他玩家戰鬥時傳送.
   NoTNTDamageAboveSeaLevel:
-    Text: '警告： TNT 將無法破壞水平面上的方塊.'
+    Text: 警告： TNT 將無法破壞水平面上的方塊.
   NoTNTDamageClaims:
-    Text: '警告： TNT 將無法破壞領地裡的方塊.'
+    Text: 警告： TNT 將無法破壞領地裡的方塊.
   IgnoreClaimsAdvertisement:
     Text: 如果要強制變更, 輸入 /IgnoreClaims.
   NoPermissionForCommand:
