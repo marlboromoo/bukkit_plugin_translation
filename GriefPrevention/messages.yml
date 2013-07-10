@@ -204,7 +204,7 @@ Messages:
   CantFightWhileImmune:
     Text: 在你受到 PvP 保護時你不能和某人戰鬥.
   NoDamageClaimedEntity:
-    Text: 這屬於 {0} 的.
+    Text: 這不屬於你的.
     Notes: '0: owner name'
   ShovelBasicClaimMode:
     Text: 鏟子(Shovel)回復為一般領地模式.
