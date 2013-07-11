@@ -175,7 +175,7 @@ Messages:
   LocationAllClaims:
     Text: 在你所有的領地
   PvPImmunityStart:
-    Text: 只要你身上沒有任何東西你就不會被攻擊.
+    Text: 只要你身上沒有任何東西就不會被玩家攻擊.
   SiegeNoDrop:
     Text: 當你參加圍城行動時無法給予東西.
   DonateItemsInstruction:
