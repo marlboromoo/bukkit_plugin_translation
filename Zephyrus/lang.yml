@@ -1,62 +1,62 @@
 # Language file - English
 # Colour text with $<colour code>
 
-noperm: You do not have permission to do that!
-ingameonly: You must be an in-game player to perform this command!
-notonline: That player is not online!
-outofdatebukkit: Sadly, the version of Craftbukkit that you are using is out of date...
-nomana: Not enough mana!
-disabled: That spell has been disabled...
-notlearned: You do not know that spell!
-worldguard: You do not have permission for this area!
+noperm: 你無權這麼作!
+ingameonly: 你必須在遊戲中執行這個指令!
+notonline: 玩家未上線!
+outofdatebukkit: 真遺憾, 你使用的 Craftbukkit 版本已經過期了...
+nomana: 法力不足!
+disabled: 法術已被禁用...
+notlearned: 你尚未學習這個法術!
+worldguard: 你無權在這個地方使用!
 spelltome:
-  learn: Learn this spell by left clicking this book
-  cast: Cast this spell with $b/cast [SPELL]$0
-  nospell: That spell was not found!
-  known: You already know that spell!
-  success: You have successfully learned $6[SPELL]
-  cantlearn: §4You don't have permission to learn [SPELL]
-  noperm: §4You don't have permission to use the spelltome!
+  learn: 左鍵點擊這本書來學習法術
+  cast: 輸入 $b/cast [SPELL]$0 來施展這個法術
+  nospell: 未知的法術!
+  known: 你已學會這個法術!
+  success: 你已成功學習 $6[SPELL]
+  cantlearn: §4你無權學習這個法術 [SPELL]
+  noperm: §4你無權使用這個魔法石!
 customitem:
-  level: Level
-levelupcmd: You have leveled up [PLAYER]
+  level: 等級
+levelupcmd: 你提昇了 [PLAYER] 的等級
 itemlevel:
-  nomore: That item cannot be leveled any more!
-  cantlevel: The item you are holding cannot be leveled!
-  complete: You have leveled up the [ITEMNAME]
-  max: That item is already at max level!
-  noitemerror: Something went wrong. Item not found...
+  nomore: 這個物品無法再提昇等級了!
+  cantlevel: 握在你手中的物品並不能升級!
+  complete: 你提昇了 [ITEMNAME] 的等級
+  max: 這個物品的等級已經是最高了!
+  noitemerror: 似乎有些不對勁. 找不到物品...
 cast:
-  nospell: Specify a spell to cast!
+  nospell: 你必須指定一個法術來施展!
 mana:
-  restored: Your magical powers feel restored!
+  restored: 你感到法力緩緩回復!
 bind:
-  nospell: Specify a spell to bind!
-  needwand: You need to be holding a wand!
-  cantbind: $6[SPELL] cannot be bound!
-  finish: Bound [SPELL] to your wand
+  nospell: 你必須指定一個法術來綁定!
+  needwand: 你必須將魔杖握在手中!
+  cantbind: $6[SPELL] 無法被綁定!
+  finish: 綁定 [SPELL] 到你的魔杖
 spelltomecmd:
-  nospell: Specify a spell to give!
-  noexist: That spell does not exist!
-  usage: 'Usage: /spelltome [spell] [player]'
-  complete: Gave [TARGET] the [SPELL] spelltome.
+  nospell: 你必須指定一個想要給予的法術!
+  noexist: 法術不存在!
+  usage: '輸入: /spelltome [spell] [player]'
+  complete: 給予 [TARGET] [SPELL] 的魔法石.
 unbind:
-  unbound: Spell unbound from your wand!
-  nospell: There is no spell bound to that wand!
+  unbound: 法術已從魔杖解除綁定!
+  nospell: 魔杖並無綁定法術!
 blinkpearl:
-  outofrange: That location is out of range!
-  recharge: The BlinkPearl still needs [TIME] to recharge...
-  noblink: You can't blink there!
+  outofrange: 距離太遠了!
+  recharge: 耀珠 仍然需要 [TIME] 的時間來充能...
+  noblink: 你無法傳送到那裡!
 lightninggem:
-  recharge: The Gem of Lightning still needs [TIME] to recharge...
+  recharge: 雷石 仍然需要 [TIME] 的時間來充能...
 firerod:
-  recharge: The Rod of Fire still needs [TIME] to recharge...
+  recharge: 火杖 仍然需要 [TIME] 的時間來充能...
 wand:
-  enchanter: 'You have successfully created an #6#lArcane Leveller'
-  nospell: Spell recipe not found!
-  noperm: You do not have permission to learn [SPELL]
-  reqlevel: That spell requires level [LEVEL]
-  reqspell: That spell requires the knowledge of [SPELL]
+  enchanter: '你成功製造出一個 #6#l煉金臺'
+  nospell: 沒有這個法術配方!
+  noperm: 你無權學習 [SPELL]
+  reqlevel: 這個法術必須等級 [LEVEL] 才能學習
+  reqspell: 你必須先擁有 [SPELL] 的知識
 spells:
   armour:
     applied: $6Your skin feels hard with magic and gold!
@@ -137,5 +137,5 @@ spells:
   explode:
     fail: $4Can't explode there!
 levelling:
-  nonew: You have not learned any new spells
-  newspells: You have learned
+  nonew: 你尚未學習任何法術
+  newspells: 你已學習
