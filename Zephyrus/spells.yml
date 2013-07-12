@@ -1,0 +1,371 @@
+# Spells - Zephyrus
+# -----------------
+# enabled: Whether or not the spell should be enabled
+# level: The level required to learn and cast the spell
+# mana: The mana cost of the spell
+# desc: The text that appears in the spelltome
+# failmessage: The message that displays when that spell can't be cast
+# displayname: The name that the spell displays as
+
+armour:
+  enabled: true
+  desc: A set of magical armour that can be called whenever you need it! The armour will block all damage for 30 seconds!
+  mana: 60
+  level: 8
+  exp: 21
+  displayname: armour
+  delay: 60
+arrow:
+  enabled: true
+  desc: Shoots an arrow. Simple.
+  mana: 4
+  level: 2
+  exp: 2
+  displayname: arrow
+bang:
+  enabled: true
+  desc: Pushes enemies away from your pointer location a small whirlwind
+  mana: 50
+  level: 5
+  exp: 17
+  displayname: bang
+  power: 4
+  radius: 6
+confuse:
+  enabled: true
+  desc: Makes all nearby entities fight eachouther!
+  mana: 20
+  level: 2
+  exp: 7
+  displayname: confuse
+  radius: 8
+feed:
+  enabled: true
+  desc: You hungry? Not anymore!
+  mana: 5
+  level: 1
+  exp: 2
+  displayname: feed
+  amount: 4
+massparalyze:
+  enabled: true
+  desc: Paralyses everyone in the area
+  mana: 50
+  level: 11
+  exp: 17
+  displayname: massparalyze
+  duration: 10
+  radius: 5
+paralyze:
+  enabled: true
+  desc: Stop your enemy dead in their tracks!
+  mana: 20
+  level: 6
+  exp: 7
+  displayname: paralyze
+  duration: 10
+fireball:
+  enabled: true
+  desc: Fires a fireball on cast!
+  mana: 10
+  level: 2
+  exp: 4
+  displayname: fireball
+phase:
+  enabled: true
+  desc: Phase through blocks!
+  mana: 10
+  level: 4
+  exp: 4
+  displayname: phase
+prospect:
+  enabled: true
+  desc: Searches for valuable materials nearby
+  mana: 10
+  level: 4
+  exp: 4
+  displayname: prospect
+  radius: 3
+conjure:
+  enabled: true
+  desc: Conjures the item that you specify! Only supports raw materials. /cast conjure [id] [amount]
+  mana: 0
+  level: 7
+  exp: 1
+  displayname: conjure
+firering:
+  enabled: true
+  desc: Creates a ring of fire around you
+  mana: 10
+  level: 5
+  exp: 4
+  displayname: firering
+  radius: 5
+punch:
+  enabled: true
+  mana: 2
+  level: 1
+  exp: 1
+  displayname: punch
+  damage: 4
+repair:
+  enabled: true
+  desc: Repairs your items! Extends your tools life by 30!
+  mana: 12
+  level: 1
+  exp: 5
+  displayname: repair
+  amount: 30
+fireshield:
+  enabled: true
+  desc: Keeps enemies away by burning them if they get too close
+  mana: 100
+  level: 7
+  exp: 34
+  displayname: fireshield
+  duration: 60
+satisfy:
+  enabled: true
+  desc: You will be completely satisfied!
+  mana: 10
+  level: 3
+  exp: 4
+  displayname: satisfy
+shield:
+  enabled: true
+  desc: Keeps enemies away by zapping them if they get too close
+  mana: 100
+  level: 7
+  exp: 34
+  displayname: shield
+  duration: 60
+  damage: 1
+blink:
+  enabled: true
+  desc: Gets you from point A to point C without bothering with point B
+  mana: 8
+  level: 3
+  exp: 3
+  displayname: blink
+detect:
+  enabled: true
+  desc: Look around for enemies nearby...
+  mana: 10
+  level: 4
+  exp: 4
+  displayname: detect
+  radius: 20
+zephyr:
+  enabled: true
+  desc: Pushes enemies away with a small whirlwind
+  mana: 100
+  level: 7
+  exp: 34
+  displayname: zephyr
+  duration: 60
+  power: 3
+  block-all: true
+zap:
+  enabled: true
+  desc: Brings down a bolt of lightning upon your enemy that will jump to other nearby enemies
+  mana: 200
+  level: 12
+  exp: 67
+  displayname: zap
+  limit: 50
+  radius: 8
+vanish:
+  enabled: true
+  desc: Makes you dissappear!
+  mana: 20
+  level: 2
+  exp: 7
+  displayname: vanish
+  duration: 30
+superheat:
+  enabled: true
+  desc: $cSuperHeats $0everything you touch! Cooks ores, smelts cobble, and melts sand! It might also work on animals...
+  mana: 5
+  level: 1
+  exp: 2
+  displayname: superheat
+  ids:
+  - 4-1
+  - 15-265
+  - 14-266
+  - 12-20
+summon:
+  enabled: true
+  desc: Summon the dead to fight with you
+  mana: 100
+  level: 7
+  exp: 34
+  displayname: summon
+  duration: 60
+flamestep:
+  enabled: true
+  desc: Once cast, everything around you will burn!
+  mana: 100
+  level: 10
+  exp: 34
+  displayname: flamestep
+  duration: 30
+  radius: 10
+smite:
+  enabled: true
+  desc: Brings a storm of lightning down were you point
+  mana: 50
+  level: 8
+  exp: 17
+  displayname: smite
+storm:
+  enabled: true
+  desc: Collect the power of the elements to conjure a storm!
+  mana: 120
+  level: 9
+  exp: 41
+  displayname: storm
+flare:
+  enabled: true
+  desc: Fires a big fireball on cast!
+  mana: 20
+  level: 5
+  exp: 7
+  displayname: flare
+dig:
+  enabled: true
+  desc: Digs for you. Max range of 12 blocks
+  mana: 1
+  level: 1
+  exp: 1
+  displayname: dig
+fly:
+  enabled: true
+  desc: Allows you to fly for 30 seconds.
+  mana: 50
+  level: 4
+  exp: 17
+  displayname: fly
+  duration: 120
+frenzy:
+  enabled: true
+  desc: Better confusion. HUGE range!
+  mana: 50
+  level: 5
+  exp: 17
+  displayname: frenzy
+  radius: 8
+arrowstorm:
+  enabled: true
+  desc: A storm of arrows!
+  mana: 30
+  level: 6
+  exp: 11
+  displayname: arrowstorm
+  count: 30
+bolt:
+  enabled: true
+  desc: Strikes lightning where you point!
+  mana: 20
+  level: 4
+  exp: 7
+  displayname: bolt
+dispel:
+  enabled: true
+  desc: This spell will clear all effects from the caster
+  mana: 5
+  level: 1
+  exp: 2
+  displayname: dispel
+mana:
+  enabled: true
+  desc: Will hurt you to restore mana
+  mana: 0
+  level: 0
+  exp: 1
+  displayname: mana
+  amount: 20
+  damage: 4
+magelight:
+  enabled: true
+  desc: Makes the world around you glow with the power of the mage!
+  mana: 40
+  level: 5
+  exp: 14
+  displayname: magelight
+  duration: 60
+lifesteal:
+  enabled: true
+  desc: This spell will damage your enemy and give you their health
+  mana: 2
+  level: 2
+  exp: 1
+  displayname: lifesteal
+jail:
+  enabled: true
+  desc: Locks your enemy in a jail and throws away the key! They are stuck for a while but the bars then rust and dissppear.
+  mana: 100
+  level: 10
+  exp: 34
+  displayname: jail
+  duration: 20
+home:
+  enabled: true
+  desc: Set your home with$l/cast home set!$rThen go to your home with $l/cast home!
+  mana: 20
+  level: 3
+  exp: 7
+  displayname: home
+heal:
+  enabled: true
+  desc: Can't you guess what this does by the title?
+  mana: 5
+  level: 1
+  exp: 2
+  displayname: heal
+  amount: 4
+grow:
+  enabled: true
+  desc: Grows wheat and Saplings
+  mana: 5
+  level: 1
+  exp: 2
+  displayname: grow
+grenade:
+  enabled: true
+  desc: Shoots a big explody thing :D
+  mana: 40
+  level: 8
+  exp: 14
+  displayname: grenade
+enderchest:
+  enabled: true
+  desc: Your very own portable enderchest!
+  mana: 20
+  level: 2
+  exp: 7
+  displayname: enderchest
+butcher:
+  enabled: true
+  desc: Brutally murders all creatures within a radius
+  mana: 40
+  level: 5
+  exp: 14
+  displayname: butcher
+  radius: 5
+explode:
+  enabled: true
+  desc: Makes a big boom!
+  mana: 100
+  level: 8
+  exp: 34
+  displayname: explode
+  power: 2
+feather:
+  enabled: true
+  desc: Makes you fall like a feather
+  mana: 20
+  level: 1
+  exp: 7
+  displayname: feather
+  duration: 120

@@ -1,0 +1,141 @@
+# Language file - English
+# Colour text with $<colour code>
+
+noperm: You do not have permission to do that!
+ingameonly: You must be an in-game player to perform this command!
+notonline: That player is not online!
+outofdatebukkit: Sadly, the version of Craftbukkit that you are using is out of date...
+nomana: Not enough mana!
+disabled: That spell has been disabled...
+notlearned: You do not know that spell!
+worldguard: You do not have permission for this area!
+spelltome:
+  learn: Learn this spell by left clicking this book
+  cast: Cast this spell with $b/cast [SPELL]$0
+  nospell: That spell was not found!
+  known: You already know that spell!
+  success: You have successfully learned $6[SPELL]
+  cantlearn: §4You don't have permission to learn [SPELL]
+  noperm: §4You don't have permission to use the spelltome!
+customitem:
+  level: Level
+levelupcmd: You have leveled up [PLAYER]
+itemlevel:
+  nomore: That item cannot be leveled any more!
+  cantlevel: The item you are holding cannot be leveled!
+  complete: You have leveled up the [ITEMNAME]
+  max: That item is already at max level!
+  noitemerror: Something went wrong. Item not found...
+cast:
+  nospell: Specify a spell to cast!
+mana:
+  restored: Your magical powers feel restored!
+bind:
+  nospell: Specify a spell to bind!
+  needwand: You need to be holding a wand!
+  cantbind: $6[SPELL] cannot be bound!
+  finish: Bound [SPELL] to your wand
+spelltomecmd:
+  nospell: Specify a spell to give!
+  noexist: That spell does not exist!
+  usage: 'Usage: /spelltome [spell] [player]'
+  complete: Gave [TARGET] the [SPELL] spelltome.
+unbind:
+  unbound: Spell unbound from your wand!
+  nospell: There is no spell bound to that wand!
+blinkpearl:
+  outofrange: That location is out of range!
+  recharge: The BlinkPearl still needs [TIME] to recharge...
+  noblink: You can't blink there!
+lightninggem:
+  recharge: The Gem of Lightning still needs [TIME] to recharge...
+firerod:
+  recharge: The Rod of Fire still needs [TIME] to recharge...
+wand:
+  enchanter: 'You have successfully created an #6#lArcane Leveller'
+  nospell: Spell recipe not found!
+  noperm: You do not have permission to learn [SPELL]
+  reqlevel: That spell requires level [LEVEL]
+  reqspell: That spell requires the knowledge of [SPELL]
+spells:
+  armour:
+    applied: $6Your skin feels hard with magic and gold!
+    name: $6Magic Armour
+    fail: You can't be wearing armour!
+  conjure:
+    invfull: Your inventory is full!
+    conplete: You have conjured [AMOUNT] [ITEM]
+    badid: Invalid ID
+    badamount: Invalid amount
+    cannot: That item cannot be conjured
+    noitem: Specify an item to conjure
+  feather:
+    applied: You'll be light as a feather for [TIME] seconds!
+    warning: $7You start to feel heavier
+    end: $7You feel much heavier
+  feed:
+    applied: You feel slightly less hungry
+    side: You feel slightly more hungry...
+    fail: You are already at max hunger!
+  flamestep:
+    applied: You will now burn everything in your path for [TIME] seconds
+    warning: $7You start to cool down...
+    end: $7You are cold again...
+  fly:
+    applied: You can now fly for [TIME] seconds
+    warning: $7Your wings start to dissappear!
+    end: $7Your wings were taken!
+  home:
+    set: Your home has been set!
+    applied: Welcome home!
+    fail: $7No home set! Set one with /cast home set
+  jail:
+    break: $7You cannot break jail blocks!
+    fail: No one to jail!
+  prospect:
+    found: 'Found ores: '
+    none: none...
+  repair:
+    side: $7Your tool feels a bit weaker...
+    fail: $7That item can't be repaired!
+  satisfy:
+    applied: $aYou feel completely satisfied
+  vanish:
+    applied: $7You have dissappeared
+  confuse:
+    fail: $cZephyrus is not fully compatible with this version of Bukkit.This spell has been disabled :(
+  paralyze:
+    fail: You do not have a target!
+  fireball:
+    fail: $4You don't have permission for this area
+  phase:
+    fail: Can't phase through that!
+  punch:
+    fail: Nothing to punch!
+  blink:
+    fail: $7Cannot blink there!
+  zap:
+    fail: You do not have a target!
+  superheat:
+    fail: You can't superheat that!
+  summon:
+    fail: You can't spawn a mob there!
+  smite:
+    fail: $4You don't have permission for this area
+  flare:
+    fail: $4You don't have permission for this area
+  frenzy:
+    fail: $cZephyrus is not fully compatible with this version of Bukkit.This spell has been disabled :(
+  bolt:
+    fail: $4You don't have permission for this area
+  heal:
+    fail: You are already at max health!
+  grow:
+    fail: $7That block cannot be grown
+  grenade:
+    fail: $4You can't shoot there!
+  explode:
+    fail: $4Can't explode there!
+levelling:
+  nonew: You have not learned any new spells
+  newspells: You have learned
