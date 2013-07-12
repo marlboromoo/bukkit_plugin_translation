@@ -16,7 +16,7 @@ spelltome:
   known: 你已學會這個法術!
   success: 你已成功學習 $6[SPELL]
   cantlearn: §4你無權學習這個法術 [SPELL]
-  noperm: §4你無權使用這個魔法石!
+  noperm: §4你無權使用這個魔法配方!
 customitem:
   level: 等級
 levelupcmd: 你提昇了 [PLAYER] 的等級
@@ -45,12 +45,12 @@ unbind:
   nospell: 魔杖並無綁定法術!
 blinkpearl:
   outofrange: 距離太遠了!
-  recharge: 耀珠 仍然需要 [TIME] 的時間來充能...
+  recharge: 耀珠 仍然需要 [TIME] 秒的時間來充能...
   noblink: 你無法傳送到那裡!
 lightninggem:
-  recharge: 雷石 仍然需要 [TIME] 的時間來充能...
+  recharge: 雷石 仍然需要 [TIME] 秒的時間來充能...
 firerod:
-  recharge: 火杖 仍然需要 [TIME] 的時間來充能...
+  recharge: 火杖 仍然需要 [TIME] 秒的時間來充能...
 wand:
   enchanter: '你成功製造出一個 #6#l煉金臺'
   nospell: 沒有這個法術配方!

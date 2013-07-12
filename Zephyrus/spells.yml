@@ -13,7 +13,7 @@ armour:
   mana: 60
   level: 8
   exp: 21
-  displayname: armour
+  displayname: 魔甲
   delay: 60
 arrow:
   enabled: true
@@ -21,14 +21,14 @@ arrow:
   mana: 4
   level: 2
   exp: 2
-  displayname: arrow
+  displayname: 箭矢
 bang:
   enabled: true
   desc: 擊退敵人一小段距離.
   mana: 50
   level: 5
   exp: 17
-  displayname: bang
+  displayname: 碰
   power: 4
   radius: 6
 confuse:
@@ -37,7 +37,7 @@ confuse:
   mana: 20
   level: 2
   exp: 7
-  displayname: confuse
+  displayname: 迷惑
   radius: 8
 feed:
   enabled: true
@@ -45,7 +45,7 @@ feed:
   mana: 5
   level: 1
   exp: 2
-  displayname: feed
+  displayname: 餵食
   amount: 4
 massparalyze:
   enabled: true
@@ -53,7 +53,7 @@ massparalyze:
   mana: 50
   level: 11
   exp: 17
-  displayname: massparalyze
+  displayname: 大規模癱瘓
   duration: 10
   radius: 5
 paralyze:
@@ -62,7 +62,7 @@ paralyze:
   mana: 20
   level: 6
   exp: 7
-  displayname: paralyze
+  displayname: 癱瘓
   duration: 10
 fireball:
   enabled: true
@@ -70,21 +70,21 @@ fireball:
   mana: 10
   level: 2
   exp: 4
-  displayname: fireball
+  displayname: 火球
 phase:
   enabled: true
   desc: 穿越物品!
   mana: 10
   level: 4
   exp: 4
-  displayname: phase
+  displayname: 穿越
 prospect:
   enabled: true
   desc: 搜尋附近的資源
   mana: 10
   level: 4
   exp: 4
-  displayname: prospect
+  displayname: 探礦
   radius: 3
 conjure:
   enabled: true
@@ -92,29 +92,29 @@ conjure:
   mana: 0
   level: 7
   exp: 1
-  displayname: conjure
+  displayname: 轉換
 firering:
   enabled: true
   desc: 在你的身邊產生環狀火焰
   mana: 10
   level: 5
   exp: 4
-  displayname: firering
+  displayname: 火環
   radius: 5
 punch:
   enabled: true
   mana: 2
   level: 1
   exp: 1
-  displayname: punch
+  displayname: 擊退
   damage: 4
 repair:
   enabled: true
-  desc: 修理你的物品! 增加你的工具使用次數!
+  desc: 修理你的物品!
   mana: 12
   level: 1
   exp: 5
-  displayname: repair
+  displayname: 修理
   amount: 30
 fireshield:
   enabled: true
@@ -122,7 +122,7 @@ fireshield:
   mana: 100
   level: 7
   exp: 34
-  displayname: fireshield
+  displayname: 火焰盾
   duration: 60
 satisfy:
   enabled: true
@@ -130,14 +130,14 @@ satisfy:
   mana: 10
   level: 3
   exp: 4
-  displayname: satisfy
+  displayname: 滿足
 shield:
   enabled: true
   desc: 傷害那些靠近你的敵人
   mana: 100
   level: 7
   exp: 34
-  displayname: shield
+  displayname: 魔盾
   duration: 60
   damage: 1
 blink:
@@ -146,14 +146,14 @@ blink:
   mana: 8
   level: 3
   exp: 3
-  displayname: blink
+  displayname: 閃現
 detect:
   enabled: true
   desc: 尋找附近的敵人...
   mana: 10
   level: 4
   exp: 4
-  displayname: detect
+  displayname: 偵測
   radius: 20
 zephyr:
   enabled: true
@@ -161,7 +161,7 @@ zephyr:
   mana: 100
   level: 7
   exp: 34
-  displayname: zephyr
+  displayname: 旋風
   duration: 60
   power: 3
   block-all: true
@@ -171,7 +171,7 @@ zap:
   mana: 200
   level: 12
   exp: 67
-  displayname: zap
+  displayname: 閃擊
   limit: 50
   radius: 8
 vanish:
@@ -180,7 +180,7 @@ vanish:
   mana: 20
   level: 2
   exp: 7
-  displayname: vanish
+  displayname: 消失
   duration: 30
 superheat:
   enabled: true
@@ -188,7 +188,7 @@ superheat:
   mana: 5
   level: 1
   exp: 2
-  displayname: superheat
+  displayname: 炙熱
   ids:
   - 4-1
   - 15-265
@@ -200,15 +200,15 @@ summon:
   mana: 100
   level: 7
   exp: 34
-  displayname: summon
+  displayname: 招喚
   duration: 60
-flamestep:
+step:
   enabled: true
   desc: 一旦使用, 在你周圍的所有物品將會燃燒!
   mana: 100
   level: 10
   exp: 34
-  displayname: flamestep
+  displayname: 火步
   duration: 30
   radius: 10
 smite:
@@ -217,14 +217,14 @@ smite:
   mana: 50
   level: 8
   exp: 17
-  displayname: smite
+  displayname: 打擊
 storm:
   enabled: true
   desc: 吸收元素的力量並招喚暴風雨!
   mana: 120
   level: 9
   exp: 41
-  displayname: storm
+  displayname: 風暴
 flare:
   enabled: true
   desc: 射出一個巨大的火球!
@@ -238,30 +238,30 @@ dig:
   mana: 1
   level: 1
   exp: 1
-  displayname: dig
+  displayname: 挖掘
 fly:
   enabled: true
   desc: 允許你飛行 30 秒.
   mana: 50
   level: 4
   exp: 17
-  displayname: fly
+  displayname: 飛行
   duration: 120
 frenzy:
   enabled: true
-  desc: 更強的迷惑. 超大範圍!
+  desc: 更強的癱瘓. 超大範圍!
   mana: 50
   level: 5
   exp: 17
-  displayname: frenzy
+  displayname: 癱瘓
   radius: 8
 arrowstorm:
   enabled: true
-  desc: 弓箭風暴!
+  desc: 箭矢風暴!
   mana: 30
   level: 6
   exp: 11
-  displayname: arrowstorm
+  displayname: 箭矢風暴
   count: 30
 bolt:
   enabled: true
@@ -269,21 +269,21 @@ bolt:
   mana: 20
   level: 4
   exp: 7
-  displayname: bolt
+  displayname: 電擊
 dispel:
   enabled: true
   desc: 消除施法者身上所有的狀態
   mana: 5
   level: 1
   exp: 2
-  displayname: dispel
+  displayname: 消除
 mana:
   enabled: true
   desc: 使用鮮血交換法力
   mana: 0
   level: 0
   exp: 1
-  displayname: mana
+  displayname: 法力
   amount: 20
   damage: 4
 magelight:
@@ -292,7 +292,7 @@ magelight:
   mana: 40
   level: 5
   exp: 14
-  displayname: magelight
+  displayname: 魔法燈
   duration: 60
 lifesteal:
   enabled: true
@@ -300,14 +300,14 @@ lifesteal:
   mana: 2
   level: 2
   exp: 1
-  displayname: lifesteal
+  displayname: 生命偷取
 jail:
   enabled: true
   desc: 將你的敵人關在牢籠裡! 它們將會被困住一陣子, 但欄杆將會鏽蝕並消失.
   mana: 100
   level: 10
   exp: 34
-  displayname: jail
+  displayname: 監禁
   duration: 20
 home:
   enabled: true
@@ -315,14 +315,14 @@ home:
   mana: 20
   level: 3
   exp: 7
-  displayname: home
+  displayname: 回家
 heal:
   enabled: true
   desc: 應該是治療吧?
   mana: 5
   level: 1
   exp: 2
-  displayname: heal
+  displayname: 治療
   amount: 4
 grow:
   enabled: true
@@ -330,28 +330,28 @@ grow:
   mana: 5
   level: 1
   exp: 2
-  displayname: grow
+  displayname: 成長
 grenade:
   enabled: true
   desc: 丟出一個會造成大爆炸的東西 :D
   mana: 40
   level: 8
   exp: 14
-  displayname: grenade
+  displayname: 榴彈
 enderchest:
   enabled: true
   desc: 隨時都可開啟你的終界箱(enderchest)!
   mana: 20
   level: 2
   exp: 7
-  displayname: enderchest
+  displayname: 終界箱
 butcher:
   enabled: true
   desc: 殘忍的殺害周遭生物
   mana: 40
   level: 5
   exp: 14
-  displayname: butcher
+  displayname: 屠夫
   radius: 5
 explode:
   enabled: true
@@ -359,7 +359,7 @@ explode:
   mana: 100
   level: 8
   exp: 34
-  displayname: explode
+  displayname: 爆炸
   power: 2
 feather:
   enabled: true
@@ -367,5 +367,5 @@ feather:
   mana: 20
   level: 1
   exp: 7
-  displayname: feather
+  displayname: 羽毛
   duration: 120
