@@ -9,7 +9,7 @@
 
 armour:
   enabled: true
-  desc: A set of magical armour that can be called whenever you need it! The armour will block all damage for 30 seconds!
+  desc: 一副讓你隨時使用的魔法盔甲! 盔甲將會阻擋所有的攻擊 30 秒!
   mana: 60
   level: 8
   exp: 21
@@ -17,14 +17,14 @@ armour:
   delay: 60
 arrow:
   enabled: true
-  desc: Shoots an arrow. Simple.
+  desc: 射出弓箭. 就這麼簡單.
   mana: 4
   level: 2
   exp: 2
   displayname: arrow
 bang:
   enabled: true
-  desc: Pushes enemies away from your pointer location a small whirlwind
+  desc: 擊退敵人一小段距離.
   mana: 50
   level: 5
   exp: 17
@@ -33,7 +33,7 @@ bang:
   radius: 6
 confuse:
   enabled: true
-  desc: Makes all nearby entities fight eachouther!
+  desc: 使身旁的怪物感到迷惑並且互相攻擊!
   mana: 20
   level: 2
   exp: 7
@@ -41,7 +41,7 @@ confuse:
   radius: 8
 feed:
   enabled: true
-  desc: You hungry? Not anymore!
+  desc: 你感到肚子餓? 再也不會了!
   mana: 5
   level: 1
   exp: 2
@@ -49,7 +49,7 @@ feed:
   amount: 4
 massparalyze:
   enabled: true
-  desc: Paralyses everyone in the area
+  desc: 癱瘓你附近的所有生物
   mana: 50
   level: 11
   exp: 17
@@ -58,7 +58,7 @@ massparalyze:
   radius: 5
 paralyze:
   enabled: true
-  desc: Stop your enemy dead in their tracks!
+  desc: 癱瘓你的目標讓它只能等死!
   mana: 20
   level: 6
   exp: 7
@@ -66,21 +66,21 @@ paralyze:
   duration: 10
 fireball:
   enabled: true
-  desc: Fires a fireball on cast!
+  desc: 發射一個火球!
   mana: 10
   level: 2
   exp: 4
   displayname: fireball
 phase:
   enabled: true
-  desc: Phase through blocks!
+  desc: 穿越物品!
   mana: 10
   level: 4
   exp: 4
   displayname: phase
 prospect:
   enabled: true
-  desc: Searches for valuable materials nearby
+  desc: 搜尋附近的資源
   mana: 10
   level: 4
   exp: 4
@@ -88,14 +88,14 @@ prospect:
   radius: 3
 conjure:
   enabled: true
-  desc: Conjures the item that you specify! Only supports raw materials. /cast conjure [id] [amount]
+  desc: 轉換你指定的物品! 只有支援未加工物品. 輸入 /cast conjure [id] [數量]
   mana: 0
   level: 7
   exp: 1
   displayname: conjure
 firering:
   enabled: true
-  desc: Creates a ring of fire around you
+  desc: 在你的身邊產生環狀火焰
   mana: 10
   level: 5
   exp: 4
@@ -110,7 +110,7 @@ punch:
   damage: 4
 repair:
   enabled: true
-  desc: Repairs your items! Extends your tools life by 30!
+  desc: 修理你的物品! 增加你的工具使用次數!
   mana: 12
   level: 1
   exp: 5
@@ -118,7 +118,7 @@ repair:
   amount: 30
 fireshield:
   enabled: true
-  desc: Keeps enemies away by burning them if they get too close
+  desc: 點燃那些靠近你的敵人
   mana: 100
   level: 7
   exp: 34
@@ -126,14 +126,14 @@ fireshield:
   duration: 60
 satisfy:
   enabled: true
-  desc: You will be completely satisfied!
+  desc: 你將會感到精神飽滿!
   mana: 10
   level: 3
   exp: 4
   displayname: satisfy
 shield:
   enabled: true
-  desc: Keeps enemies away by zapping them if they get too close
+  desc: 傷害那些靠近你的敵人
   mana: 100
   level: 7
   exp: 34
@@ -142,14 +142,14 @@ shield:
   damage: 1
 blink:
   enabled: true
-  desc: Gets you from point A to point C without bothering with point B
+  desc: 你可以作短距離傳送
   mana: 8
   level: 3
   exp: 3
   displayname: blink
 detect:
   enabled: true
-  desc: Look around for enemies nearby...
+  desc: 尋找附近的敵人...
   mana: 10
   level: 4
   exp: 4
@@ -157,7 +157,7 @@ detect:
   radius: 20
 zephyr:
   enabled: true
-  desc: Pushes enemies away with a small whirlwind
+  desc: 使用旋風擊退敵人
   mana: 100
   level: 7
   exp: 34
@@ -167,7 +167,7 @@ zephyr:
   block-all: true
 zap:
   enabled: true
-  desc: Brings down a bolt of lightning upon your enemy that will jump to other nearby enemies
+  desc: 發射閃電球來連鎖攻擊敵人
   mana: 200
   level: 12
   exp: 67
@@ -176,7 +176,7 @@ zap:
   radius: 8
 vanish:
   enabled: true
-  desc: Makes you dissappear!
+  desc: 使你消失!
   mana: 20
   level: 2
   exp: 7
@@ -184,7 +184,7 @@ vanish:
   duration: 30
 superheat:
   enabled: true
-  desc: $cSuperHeats $0everything you touch! Cooks ores, smelts cobble, and melts sand! It might also work on animals...
+  desc: $c加熱$0任何你摸到的東西! 提煉礦石, 冶煉鵝卵石, 或融化沙子! 也可以在動物身上使用...
   mana: 5
   level: 1
   exp: 2
@@ -196,7 +196,7 @@ superheat:
   - 12-20
 summon:
   enabled: true
-  desc: Summon the dead to fight with you
+  desc: 招喚亡靈來幫助你戰鬥
   mana: 100
   level: 7
   exp: 34
@@ -204,7 +204,7 @@ summon:
   duration: 60
 flamestep:
   enabled: true
-  desc: Once cast, everything around you will burn!
+  desc: 一旦使用, 在你周圍的所有物品將會燃燒!
   mana: 100
   level: 10
   exp: 34
@@ -213,35 +213,35 @@ flamestep:
   radius: 10
 smite:
   enabled: true
-  desc: Brings a storm of lightning down were you point
+  desc: 招喚暴風雨且雷擊你所指的地方
   mana: 50
   level: 8
   exp: 17
   displayname: smite
 storm:
   enabled: true
-  desc: Collect the power of the elements to conjure a storm!
+  desc: 吸收元素的力量並招喚暴風雨!
   mana: 120
   level: 9
   exp: 41
   displayname: storm
 flare:
   enabled: true
-  desc: Fires a big fireball on cast!
+  desc: 射出一個巨大的火球!
   mana: 20
   level: 5
   exp: 7
   displayname: flare
 dig:
   enabled: true
-  desc: Digs for you. Max range of 12 blocks
+  desc: 為你挖掘. 最遠到12格
   mana: 1
   level: 1
   exp: 1
   displayname: dig
 fly:
   enabled: true
-  desc: Allows you to fly for 30 seconds.
+  desc: 允許你飛行 30 秒.
   mana: 50
   level: 4
   exp: 17
@@ -249,7 +249,7 @@ fly:
   duration: 120
 frenzy:
   enabled: true
-  desc: Better confusion. HUGE range!
+  desc: 更強的迷惑. 超大範圍!
   mana: 50
   level: 5
   exp: 17
@@ -257,7 +257,7 @@ frenzy:
   radius: 8
 arrowstorm:
   enabled: true
-  desc: A storm of arrows!
+  desc: 弓箭風暴!
   mana: 30
   level: 6
   exp: 11
@@ -265,21 +265,21 @@ arrowstorm:
   count: 30
 bolt:
   enabled: true
-  desc: Strikes lightning where you point!
+  desc: 射擊閃電到你所指的地方!
   mana: 20
   level: 4
   exp: 7
   displayname: bolt
 dispel:
   enabled: true
-  desc: This spell will clear all effects from the caster
+  desc: 消除施法者身上所有的狀態
   mana: 5
   level: 1
   exp: 2
   displayname: dispel
 mana:
   enabled: true
-  desc: Will hurt you to restore mana
+  desc: 使用鮮血交換法力
   mana: 0
   level: 0
   exp: 1
@@ -288,7 +288,7 @@ mana:
   damage: 4
 magelight:
   enabled: true
-  desc: Makes the world around you glow with the power of the mage!
+  desc: 使用法力照亮你周圍!
   mana: 40
   level: 5
   exp: 14
@@ -296,14 +296,14 @@ magelight:
   duration: 60
 lifesteal:
   enabled: true
-  desc: This spell will damage your enemy and give you their health
+  desc: 傷害你的敵人並且偷取它們的生命
   mana: 2
   level: 2
   exp: 1
   displayname: lifesteal
 jail:
   enabled: true
-  desc: Locks your enemy in a jail and throws away the key! They are stuck for a while but the bars then rust and dissppear.
+  desc: 將你的敵人關在牢籠裡! 它們將會被困住一陣子, 但欄杆將會鏽蝕並消失.
   mana: 100
   level: 10
   exp: 34
@@ -311,14 +311,14 @@ jail:
   duration: 20
 home:
   enabled: true
-  desc: Set your home with$l/cast home set!$rThen go to your home with $l/cast home!
+  desc: 輸入 $l/cast home set$r 來設定家. 然後輸入 $l/cast home$r 來回家!
   mana: 20
   level: 3
   exp: 7
   displayname: home
 heal:
   enabled: true
-  desc: Can't you guess what this does by the title?
+  desc: 應該是治療吧?
   mana: 5
   level: 1
   exp: 2
@@ -326,28 +326,28 @@ heal:
   amount: 4
 grow:
   enabled: true
-  desc: Grows wheat and Saplings
+  desc: 使小麥和樹苗成長
   mana: 5
   level: 1
   exp: 2
   displayname: grow
 grenade:
   enabled: true
-  desc: Shoots a big explody thing :D
+  desc: 丟出一個會造成大爆炸的東西 :D
   mana: 40
   level: 8
   exp: 14
   displayname: grenade
 enderchest:
   enabled: true
-  desc: Your very own portable enderchest!
+  desc: 隨時都可開啟你的終界箱(enderchest)!
   mana: 20
   level: 2
   exp: 7
   displayname: enderchest
 butcher:
   enabled: true
-  desc: Brutally murders all creatures within a radius
+  desc: 殘忍的殺害周遭生物
   mana: 40
   level: 5
   exp: 14
@@ -355,7 +355,7 @@ butcher:
   radius: 5
 explode:
   enabled: true
-  desc: Makes a big boom!
+  desc: 大爆炸!
   mana: 100
   level: 8
   exp: 34
@@ -363,7 +363,7 @@ explode:
   power: 2
 feather:
   enabled: true
-  desc: Makes you fall like a feather
+  desc: 讓你如羽毛一般輕盈
   mana: 20
   level: 1
   exp: 7

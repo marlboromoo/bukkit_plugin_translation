@@ -59,83 +59,83 @@ wand:
   reqspell: 你必須先擁有 [SPELL] 的知識
 spells:
   armour:
-    applied: $6Your skin feels hard with magic and gold!
-    name: $6Magic Armour
-    fail: You can't be wearing armour!
+    applied: $6你感受到皮膚變硬並且發光!
+    name: $6魔法護甲
+    fail: 你不能穿著盔甲!
   conjure:
-    invfull: Your inventory is full!
-    conplete: You have conjured [AMOUNT] [ITEM]
-    badid: Invalid ID
-    badamount: Invalid amount
-    cannot: That item cannot be conjured
-    noitem: Specify an item to conjure
+    invfull: 你的身上已經沒有空間!
+    conplete: 你成功轉換 [AMOUNT] 個 [ITEM]
+    badid: 錯誤的ID
+    badamount: 錯誤的數量
+    cannot: 這個物品無法被轉換
+    noitem: 請指定一個物品來轉換
   feather:
-    applied: You'll be light as a feather for [TIME] seconds!
-    warning: $7You start to feel heavier
-    end: $7You feel much heavier
+    applied: 你將在 [TIME] 秒內如同羽毛一般輕盈!
+    warning: $7你開始感到沈重
+    end: $7你覺得更加沈重了
   feed:
-    applied: You feel slightly less hungry
-    side: You feel slightly more hungry...
-    fail: You are already at max hunger!
+    applied: 你覺得沒那麼餓了.
+    side: 你的肚子似乎更餓了...
+    fail: 你已經吃飽了!
   flamestep:
-    applied: You will now burn everything in your path for [TIME] seconds
-    warning: $7You start to cool down...
-    end: $7You are cold again...
+    applied: 凡是你經過的地方都會燃燒 [TIME] 秒
+    warning: $7你開始冷卻...
+    end: $7你已經恢復正常體溫...
   fly:
-    applied: You can now fly for [TIME] seconds
-    warning: $7Your wings start to dissappear!
-    end: $7Your wings were taken!
+    applied: 你現在可以飛行 [TIME] 秒
+    warning: $7你的翅膀開始剝落!
+    end: $7你的翅膀不見了!
   home:
-    set: Your home has been set!
-    applied: Welcome home!
-    fail: $7No home set! Set one with /cast home set
+    set: 你的家已設定!
+    applied: 歡迎回家!
+    fail: $7尚未設定家! 輸入 /cast home set 來設定
   jail:
-    break: $7You cannot break jail blocks!
-    fail: No one to jail!
+    break: $7你無法破壞牢籠!
+    fail: 沒有人被丟進牢籠!
   prospect:
-    found: 'Found ores: '
-    none: none...
+    found: '發現礦石: '
+    none: 啥都沒有...
   repair:
-    side: $7Your tool feels a bit weaker...
-    fail: $7That item can't be repaired!
+    side: $7Y你的工具更脆弱了...
+    fail: $7這個物品無法修復!
   satisfy:
-    applied: $aYou feel completely satisfied
+    applied: $a你感到精神飽滿
   vanish:
-    applied: $7You have dissappeared
+    applied: $7你消失在空氣中
   confuse:
-    fail: $cZephyrus is not fully compatible with this version of Bukkit.This spell has been disabled :(
+    fail: $cZephyrus 和這個版本的伺服器不相容. 法術已被停用 :(
   paralyze:
-    fail: You do not have a target!
+    fail: 你沒有目標!
   fireball:
-    fail: $4You don't have permission for this area
+    fail: $4你無權在這個地方使用
   phase:
-    fail: Can't phase through that!
+    fail: 無法穿越它!
   punch:
-    fail: Nothing to punch!
+    fail: 沒有攻擊目標!
   blink:
-    fail: $7Cannot blink there!
+    fail: $7無法閃現到那邊!
   zap:
-    fail: You do not have a target!
+    fail: 你沒有目標!
   superheat:
-    fail: You can't superheat that!
+    fail: 你無法加熱它!
   summon:
-    fail: You can't spawn a mob there!
+    fail: 你無法在那招喚怪物!
   smite:
-    fail: $4You don't have permission for this area
+    fail: $4你無權在這個地方使用
   flare:
-    fail: $4You don't have permission for this area
+    fail: $4你無權在這個地方使用
   frenzy:
-    fail: $cZephyrus is not fully compatible with this version of Bukkit.This spell has been disabled :(
+    fail: $cZephyrus 和這個版本的伺服器不相容. 法術已被停用 :(
   bolt:
-    fail: $4You don't have permission for this area
+    fail: $4你無權在這個地方使用
   heal:
-    fail: You are already at max health!
+    fail: 你的生命值處於全滿的狀態!
   grow:
-    fail: $7That block cannot be grown
+    fail: $7你無法使它成長
   grenade:
-    fail: $4You can't shoot there!
+    fail: $4你無法射擊那個地方!
   explode:
-    fail: $4Can't explode there!
+    fail: $4無法使那個地方爆炸!
 levelling:
   nonew: 你尚未學習任何法術
   newspells: 你已學習
