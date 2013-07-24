@@ -1,57 +1,57 @@
 Adrenaline:
   name: 腎上腺素
-  desc: 攻擊時有額外的傷害
+  desc: '攻擊時有額外的傷害'
 Berserking:
   name: 狂暴
-  desc: 擊中時有額外的傷害
+  desc: '擊中時有額外的傷害'
 Blind:
-  name: Blind
-  desc: 擊中時使敵人眼盲
+  name: 致盲
+  desc: '擊中時使敵人眼盲'
 Brilliance:
   name: 光輝
-  desc: 攻擊時造成敵人眼盲
+  desc: '攻擊時造成敵人眼盲'
 Cursed:
   name: 詛咒
-  desc: 攻擊時在敵人身上施放凋靈
+  desc: '攻擊時在敵人身上施放凋靈'
 Demoralizing:
   name: 挫志
-  desc: 攻擊時使敵人的攻擊力下降
+  desc: '攻擊時使敵人的攻擊力下降'
 Distortion:
   name: 扭曲
-  desc: 攻擊時將會隱形
+  desc: '攻擊時將會隱形'
 Fervor:
   name: 狂熱
-  desc: 擊中時增加速度
+  desc: '擊中時增加速度'
 Frost:
   name: 冰霜
-  desc: 攻擊時使敵人的速度緩慢
+  desc: '攻擊時使敵人的速度緩慢'
 Jump:
   name: 跳躍
-  desc: 被動賦予額外的跳躍高度
+  desc: '被動賦予額外的跳躍高度'
 Lively:
   name: 輕快
-  desc: 攻擊時增加速度
+  desc: '攻擊時增加速度'
 Molten:
   name: 熔融
-  desc: 攻擊時使敵人燃燒
+  desc: '攻擊時使敵人燃燒'
 Night Vision:
   name: 夜視
-  desc: 被動賦予夜視能力
+  desc: '被動賦予夜視能力'
 Phantom:
   name: 幻影
-  desc: 攻擊時暫時消失
+  desc: '攻擊時暫時消失'
 Poison:
   name: 毒藥
-  desc: 擊中時使敵人中毒
+  desc: '擊中時使敵人中毒'
 Slowing:
   name: 緩慢
-  desc: 擊中時使敵人緩慢
+  desc: '擊中時使敵人緩慢'
 Toxic:
-  name: 獨煙
-  desc: 攻擊時使敵人中毒
+  name: 毒煙
+  desc: '攻擊時使敵人中毒'
 Weakness:
   name: 虛弱
-  desc: 擊中時使敵人攻擊力下降
+  desc: '擊中時使敵人攻擊力下降'
 Wither:
   name: 枯萎
-  desc: 擊中時在敵人身上施凋靈
+  desc: '擊中時在敵人身上施凋靈'

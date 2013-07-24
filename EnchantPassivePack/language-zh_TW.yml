@@ -1,30 +1,30 @@
 Forceful:
   name: 原力
-  desc: 傷害並擊退對手
+  desc: '傷害並擊退對手'
 Gravity:
   name: 重力
-  desc: 傷害並拉近對手
+  desc: '傷害並拉近對手'
 Knockup:
   name: 擊飛
-  desc: 有機會將目標擊飛
+  desc: '有機會將目標擊飛'
 Life:
   name: 生命
-  desc: 裝備時將會有額外的生命值
+  desc: '裝備時將會有額外的生命值'
 Lifesteal:
   name: 生命偷取
-  desc: 攻擊時偷取生命
+  desc: '攻擊時偷取生命'
 Lightning:
   name: 閃電
-  desc: 攻擊時有機會發射閃電
+  desc: '攻擊時有機會發射閃電'
 Rapid:
   name: 迅速
-  desc: 更快速的發射物品
+  desc: '更快速的發射物品'
 Reflection:
   name: 反射
-  desc: 反射攻擊者所造成的傷害
+  desc: '反射攻擊者所造成的傷害'
 Regenerative:
   name: 再生
-  desc: 隨著時間緩慢的回復生命
+  desc: '隨著時間緩慢的回復生命'
 Shadow Shift:
   name: 影移
-  desc: 攻擊時有機會使目標眼盲並使附近的人炫暈
+  desc: '攻擊時有機會使目標眼盲並使附近的人炫暈'

@@ -1,33 +1,33 @@
 Angler:
   name: 漁夫
-  desc: 捕到更多魚
+  desc: '捕到更多魚'
 Dash:
   name: 衝撞
-  desc: 向前衝刺並對所有敵人造成傷害
+  desc: '向前衝刺並對所有敵人造成傷害'
 Fireball:
   name: 火球
-  desc: 右鍵發射火球
+  desc: '右鍵發射火球'
 Fried:
   name: 油煎
-  desc: 捕到煮熟而不是生的魚
+  desc: '捕到煮熟而不是生的魚'
 Grapple:
   name: 鉤子
-  desc: 將你拉向鉤子抓到的方塊
+  desc: '將你拉向鉤子抓到的方塊'
 Heal:
   name: 治療
-  desc: 治療你或者一個友方目標
+  desc: '治療你或者一個友方目標'
 Pull:
   name: 拉動
-  desc: 將敵方目標拉向你
+  desc: '將敵方目標拉向你'
 Rejuvenating:
   name: 復原
-  desc: 吃東西時將會被治療
+  desc: '吃東西時將會被治療'
 Repulse:
   name: 擊退
-  desc: 推開所有身邊的敵人
+  desc: '推開所有身邊的敵人'
 Toss:
   name: 重摔
-  desc: 舉起並丟出敵人
+  desc: '舉起並丟出敵人'
 Vortex:
   name: 漩渦
-  desc: 將附近的敵人拉向你
+  desc: '將附近的敵人拉向你'
