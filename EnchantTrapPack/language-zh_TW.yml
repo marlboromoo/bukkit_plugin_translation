@@ -1,0 +1,30 @@
+Barrier Trap:
+  name: 柵欄陷阱
+  desc: 放置一個將敵人推開的陷阱
+Bomb Trap:
+  name: 炸彈陷阱
+  desc: 放置一個觸碰時會爆炸的陷阱
+Fire Trap:
+  name: 火焰陷阱
+  desc: 放置一個觸碰時會著火的陷阱
+Ice Trap:
+  name: 冰霜陷阱
+  desc: 放置一個防止敵人逃脫的陷阱
+Launch Trap:
+  name: 升空陷阱
+  desc: 放置一個將敵人射向空中的陷阱
+Lightning Trap:
+  name: 閃雷陷阱
+  desc: 放置一個觸碰時會雷擊的陷阱
+Poison Trap:
+  name: 毒藥陷阱
+  desc: 放置一個使敵人中毒的陷阱
+Slow Trap:
+  name: 緩速陷阱
+  desc: 放置一個使敵人緩慢的陷阱
+Weakness Trap:
+  name: 虛弱陷阱
+  desc: 放置一個使敵人攻擊力下降的陷阱
+Web Trap:
+  name: 蛛網陷阱
+  desc: 放置一個觸碰時會發射蜘蛛網的陷阱
