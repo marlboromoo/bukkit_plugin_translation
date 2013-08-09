@@ -1,146 +1,164 @@
-= Intro =
+= 序言 =
 
-Ancient powers of true light and darkness have awoken. Through the use of altars these powers tap into our dimension, in recent times the darkness has gained a stronger connection. It spreads as an infectious disease that only the altars of light and holy water can cure. Those who embrace the dark disease are granted the powerful curse of Vampirism.
+遠古的光明和黑暗力量已覺醒. 透過使用祭壇將這些力量重現在我們的時空, 最近一段時間黑暗的力量越來越強大. 它透過傳染病來散播並且只能使用光明祭壇或聖水來治癒. 那些擁播黑暗疾病的人將透過吸血鬼的詛咒而獲得強大的力量.
 
-Anyone can become a vampire, but do you want to? During daytime vampires cower from sunlight. During the night the humans reach for their holy water and wooden stakes as the vampires roam the lands with inhuman strength, speed and levitation-powers. Driven by their endless bloodlust, they devour all living in their way.
+所有人的可以成為吸血鬼, 但是你想要嗎? 在白天吸血鬼將會受到陽光的傷害. 在晚上人們拿起他們的聖水和木樁來對抗到處遊蕩的吸血鬼之異於常人的力量 - 速度和漂浮能力. 它們無止境的嗜血衝動, 將會吞食所有它們面前的生物.
 
-= The Vampire Dining Table =
+= 吸血鬼食譜 =
 
-Name		Blood/Food/Hunger
-Enderdragon	70x
-Giant		25x
-Mooshroom	10x
-Player		5x	
-Villager	5x
-Cow		4x
-Pig		3x
-Sheep		3x
-Wolf		3x
-Ocelot		3x
-Squid		2x
-Spider		2x
-Cavespider	2x
-Chicken		1x
-Silverfish	1x
+名稱			血液/食物/飽食度
+終界龍(Enderdragon)	70x
+巨人(Giant)		25x
+哞菇(Mooshroom)		10x
+玩家(Player)		5x	
+村民(Villager)		5x
+牛(Cow)			4x
+豬(Pig)			3x
+羊(Sheep)		3x
+狼(Wolf)		3x
+野貓(Ocelot)		3x
+烏賊(Squid)		2x
+蜘蛛(Spider)		2x
+洞穴蜘蛛(Cavespider)	2x
+雞(Chicken)		1x
+蠹魚(Silverfish)	1x
 
-= Commands and Hotkeys =
+= 指令和快捷鍵 =
 
- * /v ?,h,help [page=1]
- * /v s,show [player=you] Show player info
- * /v b,bloodlust [bool=flip] use bloodlust (SpoutCraft Hotkey “V”)
- * /v i,intend [bool=flip] use intent to infect
- * /v n,nightvision [bool=flip] use nightvision
- * /v o,offer <playername> [amount=4.0] offer blood to someone
- * /v a,accept accept blood offer
- * /v shriek shriek (SpoutCraft Hotkey “X”)
- * /v v,version Show plugin version and information.
- * /v l,list [page=1] list vampires and infected
- * /v set set player attributes
+ * /v ?,h,help [頁面=1]
+ * /v s,show [玩家=你] 顯示玩家資訊
+ * /v b,bloodlust [布爾值=切換] 使用嗜血能力 (SpoutCraft 快捷鍵 “V”)
+ * /v i,intend [布爾值=切換] 用於傳然疾病
+ * /v n,nightvision [布爾值=切換] 使用夜視能力
+ * /v o,offer <玩家名稱> [數量=4.0] 提供別人血液
+ * /v a,accept 接受血液
+ * /v shriek 尖叫 (SpoutCraft 快捷鍵 “X”)
+ * /v v,version 顯示版本和資訊.
+ * /v l,list [頁面=1] 列出吸血鬼和感染者
+ * /v set 設定玩家屬性
 
-= Vampires… =
+= 吸血鬼… =
 
- * are destroyed by sunlight.
- * are extremely vulnerable to wood and holy water.
- * spreads the dark disease through combat and their own blood.
- * kill and drink blood instead of eating food.
- * regenerate health quickly at the expense of food-level.
- * won’t be attacked by monsters unless the vampire attacks first.
- * take no fall- or suffocation-damage.
- * have stationary food level unless in bloodlust mode.
- * move faster, jump higher and damage more with bloodlust.
+ * 被陽光毀滅.
+ * 碰觸木製品和聖水時非常脆弱.
+ * 透過戰鬥或它們的血液散佈黑暗疾病.
+ * 透過殺戮和吸血來代替食物.
+ * 快速的治癒能力透過消耗珍貴的飽食度.
+ * 除非自行發起攻擊不然不會被怪物攻擊.
+ * 不會摔傷或窒息而死.
+ * 擁有不變的飽食度直到發動嗜血能力.
+ * 更快的移動度度, 跳的更高並且透過嗜血能力可以有更多的攻擊力.
 
-= The Dark Disease =
+= 黑暗疾病 =
 
-The dark disease is not to be confused with Vampirism. The dark disease will make you sicker and sicker until you finally turn into a vampire. This will take around 3 in-game day-night cycles. Use /v s,show to see your current state of disease.
+不要將黑暗疾病和吸血鬼症狀搞混. 黑暗疾病會讓你虛弱直到完全轉變成吸血鬼. 這通常需要三天遊戲時間裡的日夜交替. 輸入 /v s,顯示你目前的疾病狀態.
 
-To contract the disease you can use an altar of darkness. You also risk infection if you accept a blood offer from a vampire or engage in close-combat with one. Vampires may decide if they intend to infect during combat or not. For each attack (from either you or the vampire) the risk is 5% with intent and an 0.3% without (/v i,intend).
+如過要和受到疾病的感染你可以使用黑暗祭壇. 當你接受吸血鬼的血液或和它門近距離戰鬥時也有風險被感染. 吸血鬼可以決定它們在戰鬥時要不要散佈疾病. 每一次攻擊(不管是你或吸血鬼發動的)在蓄意散佈的狀態下是5%, 非蓄意的狀態下是0.3%(/v i,intend).
 
-To stop the disease you can use an altar of light or holy water (sparkling splash potion). The disease will not reset if you log off or die.
+如要停止疾病你可以使用光明祭壇或是聖水(發光的飛濺藥水). 如果你死亡或是登出遊戲疾病仍然存在.
 
-To cure actual vampirism you need to use an altar of light.
+如果要治癒吸血症狀你需要一個光明祭壇.
 
-= Offer and Accept Blood =
+= 提供或接受血液 =
 
-Anyone (both vampires and humans) can use the commands /v o,offer and /v a,accept to trade blood. What you actually trade is food-level. This way vampires can have “blood-slaves”. It’s also a way to transfer the dark disease. You can at most offer 20 (all your blood). If you offer all 20 the infection risk is 100%. If you offer 4 the risk is 20% etc.
+任何人(吸血鬼或人類)都可以使用指令 /v o,offer 和 /v a,accept 來交換血液. 實際上你交換的是飽食度. 這樣的話吸血鬼可以有"血奴". 它也是傳染黑暗疾病的方法之一. 你可以提供20也就是全部的飽食度(所有你的血液). 如果你提供20飽食度那感染機率是100%. 如果你提供4飽食度那感染機錄事20% .. 依此類推.
 
-Drinking blood from others is visible to those within 7 block. If you want to keep your vampirism secret you must thus avoid drinking blood in crowded areas.
+吸食別人的血液會讓7格之內玩家注意到. 如果你想要保持你的吸血鬼祕密, 你必須避免在大庭廣眾下吸血.
 
-Finally we suggest you try drinking blood from yourself. Try /v offer yourOwnPlayerName
+最後我們建議你也可以吸食自己的血液. 輸入 /v offer 你自己的遊戲名稱
 
-= The Bloodlust =
+= 嗜血能力 =
 
-Bloodlust is the main vampire advantage. Close combat damage is increased by 20% but most importantly the vampires run with double speed and jump six times as high with increased air maneuvering.
+嗜血能力是吸血鬼主要的優勢. 近距離戰鬥的攻擊力提昇20%但最重要的是吸血鬼的跑步速度是正常的兩倍而跳躍力式正常的六倍.
 
-Vampires usually have a stationary foodlevel. In bloodlust their foodlevel will however drop on a time basis. After roughly 1min the vampire is too hungry/thirsty to use bloodlust.
+吸血鬼通常有不變動的飽食度. 在嗜血的狀態下它們的飽食度會隨著時間而消耗. 通常過了一分鐘後吸血鬼會因為太飢餓/口渴而無法使用嗜血能力.
 
-A vampire in bloodlust emits a smoke-trail while moving. Apart from being a nice effect it’s a way to distinguish vampires from flyhackers.
+一個吸血鬼在嗜血狀態下時移動會捲起一股煙燼. 除了華麗之外也是和飛行駭客做出區別的地方.
 
-The Nightvision
+＝ 夜視能力 =
 
-Vampires can use night vision any time they want. It can be toggled on and off using the command “/v n”. The night vision is free and does not consume food level. It works just like the potion effect but you don’t emit particles. This way others can’t see you are using nightvision.
+吸血鬼可以在任何時候使用夜視能力. 可以使用指令“/v n”來切換. 夜視能力是免費並且不會消耗飽食度. 它的效用和夜視藥水一樣但是你不會冒煙. 這樣的話其他人並不知道你使用了夜視能力.
 
-= The Sun =
+= 陽光 =
 
-The Sun is the main vampire dis-advantage. When vampires are exposed to sunlight their body temperature will increase fast. Vampires simply can’t stand sunlight.
+陽光對於吸血鬼來說是最大的劣勢. 當吸血鬼曝露在陽光底下它們體溫快速上升. 吸血鬼就是不能照到陽光.
 
-Temperature	Effects
-20%		Nausea
-30%		Nausea, Weakness
-50%		Nausea, Weakness, Slow
-80%		Nausea, Weakness, Slow, Blindness
-90%		Nausea, Weakness, Slow, Blindness, Burn
+溫度		效果
+20%		噁心
+30%		噁心, 虛弱
+50%		噁心, 虛弱, 緩慢
+80%		噁心, 虛弱, 緩慢, 
+90%		噁心, 虛弱, 緩慢, 失明, 燃燒
 
-Vampires can see their temperature and irradiation/exposure level at any time using the command /v s,show. In full cover the irradiation/exposure is -20 which means the vampire is cooling down. Irradiation is calculated using this formula:
-irradiation/exposure = sun * terrain * armor – 20
+吸血鬼可以透過輸入 /v s,show 指令來確認它們的體溫和照射/曝曬率. 在完全包覆的狀態下照射/曝曬率是-20, 意思就是吸血鬼是冷卻的. 照射/曝曬率的公式如下:
+照射/曝曬率 = 陽光 * 氣候 * 盔甲 – 20
 
-Sun is calculated as a value between 0 and 100. It depends on the time of the day and if there is rain.
+陽光被換算成0到100之間的數值. 這個數值取決於一天之內的時間和是否下雨.
 
-Terrain is calculated as a value between 0 and 1 by looking at the blocks above the player all the way up to the roof of the world. This means we pretend the sun is always directly above the player. Most blocks are completely solid and will block all sun. But it would for example take 4 leaf-blocks to block all sun. See all the values here.
+氣候透過觀察玩家上方到天空的頂端的方塊來換算成0到1之間的數值. 這意味者我們假設陽光永遠在玩家的上方. 大多數的方塊是實心的並且可以完全阻擋陽光. 但也可以使用4個樹葉方塊來阻擋陽光. 你可以在此查到所有的資訊: https://github.com/MassiveCraft/Vampire/blob/master/src/com/massivecraft/vampire/Conf.java
 
-Armor is calculated as a value between 0 and 0.4. Each armor piece grants 0.125. The type of armor does not matter. This means armor never can block irradiation completely. It can however slow down the heatup process.
+裝甲被換算成0到0.4之間的數值. 每個部份的裝甲被賦予0.125. 裝甲的種類並不重要. 這意味著裝甲永遠無法阻擋曝曬率. 它只能減緩溫度上升的過程.
 
-= Stakes and Holy Water =
+= 木樁和聖水 =
 
-A bloodlusting vampire is a very strong opponent. They are however very weak against wooden stakes and holy water. Rely on these two tools and you may protect yourself as the sun goes down.
+一個嗜血狀態的吸血鬼是非常強大的敵人. 但是它們觸碰到木樁或聖水時非常虛弱. 當陽光消失時你只能是用這兩種物品保護自己.
 
 ...........
-Wooden stakes deal three times the damage of a diamond-sword to vampires. All of these items are considered wooden stakes: Stick, Wooden Sword, Wooden Axe, Wooden Pickaxe, Wooden Spade, Wooden Hoe, Sign, Torch, Redstone Torch, Fence and Fence Gate.
+木樁對吸血鬼造成三倍鑽石劍所能造成的傷害. 所有這些物品都被可以當成木樁: 木棒(Stick), 木劍(Wooden Sword), 木斧(Wooden Axe), 木鎬(Wooden Pickaxe), 木鏟(Wooden Spade), 木鋤(Wooden Hoe), 告示牌(Sign), 火把(Torch), 紅石火把(Redstone Torch), 柵欄(Fence )和柵欄門(Fence Gate).
 
 .
-Holy water is a splash potion. The ingredients required are 1 Water Bottle and 1 Lapis Lazuli Dye. Hold the water bottle and right-click an altar of light to create the splash potion. In you inventory this potion is called “Sparkling Potion” and seems to have no effects though it actually has two.
+聖水是飛濺藥水. 成份是1個水瓶(Water Bottle)和1個青金石染料(Lapis Lazuli Dye). 將水瓶(water bottle)握在手上並且右鍵點擊光明祭壇來製造飛濺藥水. 在你的身上你會找到一瓶看來無用但實際上有兩個效用的"發光的藥水"(Sparkling Potion).
 
-The potion cures those infected with the dark disease. It will not cure full vampires though. A vampire hit with holy water will suffer a 70% temperature increase. This means vampire will go blind and catch fire if they are hit by two holy water potions. The only damage taken is the one from burning but as the vampire is in no condition to fight the best way of action in that case is to flee before someone gets close with a wooden stake.
+這個藥水可以治療那些被黑暗疾病感染的人. 它不會完全治癒吸血鬼的症狀. 當一個吸血鬼被聖水擊中石他的體溫會上升70%. 這意味這吸血鬼被兩瓶聖水擊中將會失明並且開始燃燒. 唯一的傷害是燃燒所造成的, 但吸血鬼處於無法戰鬥的狀態, 它們只能逃跑以避免有人拿木樁接近.
 
-= The Altars of Darkness and Light =
+= 光明和黑暗祭壇 =
 
-To use an altar you right-click the main block (gold or lapis lazuli). Altars can be built by anyone. The altars are made of the main block and some secondary blocks. The vampire plugin make dead bushes and web easily obtainable. A web drops a web on destruction and a bush drops a bush.
+如要使用祭壇你必須右鍵點擊主要的方塊(黃金或是青金石). 祭壇可被任何人建造. 祭壇使用主要和次要的方塊建造. 吸血鬼插件讓枯灌木(Dead Bush)和蜘蛛網(Web)更容易取得. 當擊落蜘蛛網時將會掉落蜘蛛網, 而擊落枯灌木石將會掉落枯灌木.
 
-== Altar of Darkness ==
-
-.
-
-This is just an example. Your altar can have a different design
-
-A Gold Block with these blocks within a 10 block radius:
-
-30 Obsidian
-5 Web
-5 Dead Bush (Go to a desert. Find a dead bush. Hit it with your fist.)
-2 Diamond Block
-The altar of darkness can be used to contract the dark disease that after a while will turn you into a vampire (you will not turn instantly). To activate the altar you need these items:
-1 Mushroom Soup,10 Bone, 10 Sulphur / Gunpowder, 10 Redstone
-
-== Altar of Light ==
+== 黑暗祭壇 ==
 
 .
 
-This is just an example. Your altar can have a different design
+這只是一個範例. 你的祭壇可以設計成不同的樣子.
 
-A Lapis Lazuli Block with these blocks within a 10 block radius:
+一個金磚(Gold Block)和以下這些在10格範圍內的磚塊:
 
- * 30 Glowstone
- * 5 Yellow Flower
- * 5 Red Rose
- * 2 Diamond Block
+ * 30 黑藥石(Obsidian)
+ * 5 蜘蛛網(Web)
+ * 5 枯灌木(Dead Bush) - 到沙漠去. 找到枯灌木. 用你的手擊落它.
+ * 2 鑽石磚(Diamond Block)
 
-The altar of light removes the dark disease for free. To cure yourself from vampirism you need these items: 1 Water Bucket,1 Diamond, 20 Sugar, 20 Wheat. To create holy water you need these items: 1 Water Bottle, 1 Lapis Lazuli Dye and you can’t be a vampire. Only non vampires can create holy water.
+可以和黑暗祭壇立契約來獲得黑暗疾病讓你過一段時間轉換成吸血鬼(你不會馬上轉換). 如要啟動祭壇你需要這些物品:
+ 
+ * 1 蘑菇湯(Mushroom Soup)
+ * 10 骨頭(Bone)
+ * 10 火藥(Sulphur或Gunpowder)
+ * 10 紅石(Redstone)
+
+== 光明祭壇 ==
+
+.
+
+這只是一個範例. 你的祭壇可以設計成不同的樣子.
+
+一個青金石磚(Lapis Lazuli Block)和以下這些在10格範圍內的磚塊:
+
+ * 30 螢光石(Glowstone)
+ * 5 黃花(Yellow Flower)
+ * 5 紅玫瑰(Red Rose)
+ * 2 鑽石磚(Diamond Block)
+
+光明祭壇可以無償移除黑暗疾病. 如要將你從吸血鬼的狀態治癒需要這些物品: 
+
+ * 1 水桶(Water Bucket)
+ * 1 鑽石(Diamond)
+ * 20 糖(Sugar)
+ * 20 小麥(Wheat)
+
+如要製造聖水你需要這些物品: 
+
+ * 1 水瓶(Water Bottle)
+ * 1 青金石染料(Lapis Lazuli Dye)
+
+而且你不能是吸血鬼. 只有人類可以製造聖水.
+
