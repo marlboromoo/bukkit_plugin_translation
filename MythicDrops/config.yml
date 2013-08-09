@@ -1,0 +1,71 @@
+# safeEnchantsOnly is no longer really used,
+#   it is configured in the tier.yml
+# allowEnchantsPastNormalLevel is no longer
+#   really used
+# customItemsSpawn determines if mobs can be
+#   given custom items
+# customItemsOnly determines if custom items
+#   are the only things mobs can be given
+# customDropChance determines if mobs are given
+#   items when customItemsSpawn is set to true
+# autoUpdate determines if the plugin should
+#   automatically update itself when it finds
+#   an update on BukkitDev
+# debugOnStartup determines if the plugin should
+#   print out information to a debug file when
+#   the server is starting up
+options:
+  safeEnchantsOnly: true
+  allowEnchantsPastNormalLevel: true
+  customItemsSpawn: false
+  customItemsOnly: false
+  customDropChance: 0.05
+  autoUpdate: false
+  debugOnStartup: false
+spawnPrevention:
+  spawnEgg: true
+  spawner: true
+  custom: true
+display:
+  itemNameFormat: '%tiername% %itemtype%'
+  preventMultipleChangesFromSockets: true
+  tooltips:
+    randomLoreEnabled: false
+    randomLoreChance: 0.25
+    format:
+    - '&FType: %mythicmaterial%'
+    - '&7Punch an anvil to repair'
+percentages:
+  mobSpawnWithItemChance: 0.25
+sockets:
+  socketGemsEnabled: true
+  socketGemsChance: 0.25
+  socketGemMaterialIDs:
+  - 264
+  - 388
+  - 399
+  sockettedItemsEnabled: true
+  spawnWithSocketChance: 0.1
+effects:
+  useAttackerItemInHand: true
+  useAttackerArmorEquipped: false
+  useDefenderItemInHand: false
+  useDefenderArmorEquipped: true
+identification:
+  unidentifiedItemsEnabled: true
+  unidentifiedItemChance: 0.5
+  identityTomesEnabled: true
+  identityTomeChance: 0.1
+repairing:
+  enabled: true
+worlds:
+  enabled: false
+  generate:
+  - world
+  - world_nether
+  - world_the_end
+  use:
+  - world
+  - world_nether
+  - world_the_end
+version: 2.3
