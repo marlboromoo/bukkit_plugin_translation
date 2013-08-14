@@ -117,7 +117,7 @@ BiteAttacker:
 BiteWildWolf:
 - 好痛! 這個被咬的感覺真的很奇怪...
 KilledMob:
-- 這是一個精彩的擊殺. 你獲得了$Amount的生命值!
+- 真是個漂亮的擊殺. 你獲得了$Amount的生命值!
 WerewolfTryEat:
 - 狼人並不吃這個. 你渴望的是肉!
 DrinkInfectionSuccess:
@@ -181,7 +181,7 @@ InfectionPotionDescription1:
 - 喝下這個你就可以成為狼人!
 InfectionPotionDescription2:
 - $ServerName裡最正點的藥水!
-- 必須在充滿月光的夜裡喝下, 才能顯示出真面目.
+- 必須在充滿月光的夜裡喝下, 才能展現真面目.
 - 必須在最亮夜晚的最黑暗時刻喝下
 - 必須在銀夜喝下.
 - 必須在漲潮最高時喝下
