@@ -17,7 +17,7 @@
   "tradeLackingOut": "<b>你沒有足夠的血液來完成交易.",
   "tradeLackingIn": "<b><h>%s<b>沒有足夠的血液來完成交易.",
   "tradeTransferOut": "<h>%s<i>喝下你<h>%.1f<i>的血液.",
-  "tradeTransferIn": "<i>你喝下<h>%s<i><h>%.1f<i>的血液.",
+  "tradeTransferIn": "<i>You drink <h>%.1f <i> of <h>%s's<i> blood.",
   "tradeSeen": "<h>%s<i>從<h>%s<i>那喝了一些血液<strong>:O<reset> <i>!",
   "truceBroken": "<b>你暫時打破了和怪物們的休戰契約.",
   "truceRestored": "<g>你和怪物們的休戰契約又重新恢復了.",
