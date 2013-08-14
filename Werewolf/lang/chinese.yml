@@ -1,194 +1,194 @@
 Version:
-  Name : English
-  Author: DogOnFire
+  Name : Chinses Traditional
+  Author: Marlboromoo
   Version: 0.3
 CannotTransformSoSoon:
-- You cannot transform again so soon. Gather your strength and try again later!  
+- 你無法於短時間內再度變身. 蒐集你的力量並且過會再試!  
 HelpTransform:
-- /werewolf transform&f - Instantly transform yourself into a Werewolf!
+- /werewolf transform&f - 讓你瞬間變成狼人!
 WerewolfCommandControlledTransformation:
--   You can control your transformation
+-   你可控制是否變身為狼人
 WerewolfCommandGoldImmunity:
--   You are not harmed by gold items
+-   你將不會被黃金製品傷害
 WerewolfCommandNoDropItems:
--   You do not drop items during transformation
+-   處於狼人狀態將不會掉落物品
 WerewolfCommandFullMoonImmunity:
--   You no longer transform during a full moon
+-   你將不會在滿月時變身狼人
 KilledMobPoints:
-- &bYou got $Amount &bclan points for that kill!
+-   你在這個擊殺中取得$Amount&b氏族點數!
 MustExperienceMoreFullMoons:
-- You must experience $Amount&c more full moon transformations to do that!
+- 你必須經歷$Amount&c次滿月才可控制變身!
 NoWerewolfHuntersInWorld:
-- There are no Werewolf hunters in $ServerName!
+- 在$ServerName裡並沒有狼人獵人!
 TopWerewolfHunters:
-- ------ The top Werewolf hunters of $ServerName ------  
+- ------ 在$ServerName裡的頂尖狼人獵人 ------  
 CreatedWerewolfInfectionPotion:
-- You created a Werewolf infection potion
+- 你製造了狼人感染藥水
 CreatedWerewolfCurePotion:
-- You created a Werewolf cure potion
+- 你製造了狼人治癒藥水
 NowAWerewolf:
-- You are now a Werewolf!
+- 你現在成為狼人了!
 NotAWerewolfAnymore:
-- You are not a werewolf anymore... 
+- 你不在是狼人了... 
 InvalidCommand:
-- Invalid Werewolf command
+- 不正確的狼人指令
 HelpWerewolf:
-- /werewolf&f - Show basic Werewolf info
+- /werewolf&f - 顯示基本的狼人資訊
 HelpCheck:
-- /werewolf check <playername>&f - Check Werewolf status for a player
+- /werewolf check <玩家名稱>&f - 檢查玩家的狼人狀態
 HelpHunt:
-- /werewolf hunt&f - Toggles Werewolf hunt mode
+- /werewolf hunt&f - 切換狼人狩獵模式
 HelpTop:
-- /werewolf top&f - View the top Werewolf hunters in $ServerName
+- /werewolf top&f - 顯示$ServerName的頂尖狼人獵人
 HelpBounty:
-- /werewolf bounty&f - Check the current bounty for killing a Werewolf
+- /werewolf bounty&f - 顯示目前擊殺狼人的賞金
 HelpAddBounty:
-- /werewolf addbounty <amount>&f - Add to the bounty for killing a Werewolf
+- /werewolf addbounty <數量>&f - 增加擊殺狼人的賞金
 HelpInfectSelf:
-- /werewolf infect&f - Infects yourself with the Werewolf infection
+- /werewolf infect&f - 使你得到狼人感染
 HelpInfectOther:
-- /werewolf infect <playername>&f - Infects a player with the Werewolf infection
+- /werewolf infect <玩家名稱>&f - 使玩家得到狼人感染
 HelpToggleSelf:
-- /werewolf toggle <playername>&f - Toggles Werewolf status for a player
+- /werewolf toggle <玩家名稱>&f - 切換玩家的狼人狀態
 HelpToggleOther:
-- /werewolf toggle&f - Toggles Werewolf status for yourself
+- /werewolf toggle&f - 切換你的狼人狀態
 HelpPotion:
-- /werewolf potion&f - Creates a Werewolf infection potion
+- /werewolf potion&f - 製造一瓶狼人感染藥水
 HelpCure:
-- /werewolf cure&f - Creates a Werewolf cure potion
+- /werewolf cure&f - 製造一瓶狼人治癒藥水
 HelpClan:
-- /werewolf clan&f - Shows Werewolf clan info
+- /werewolf clan&f - 顯示狼人氏族資訊
 TakeCompassInHands:
-- You must have a compass in your hands!
+- 你必須將指南針拿在手上!
 Infected:
-- You have been infected with the Werewolf infection by $PlayerName!
+- 你被$PlayerName傳染了狼人感染!
 MadeWerewolf:
-- You have been turned into a werewolf by $PlayerName!
+- 你被$PlayerName變成了狼人!
 UnMadeWerewolf:
-- You have been unturned from being a werewolf by $PlayerName!
+- 你被$PlayerName變回了人類!
 NoWerewolvesOnline:
-- There are no werewolves online
+- 線上沒有狼人存在
 WerewolvesCannotHuntWerewolves:
-- Werewolves cannot hunt Werewolves!
+- 狼人無法獵殺狼人!
 YouMustHaveYourHandsFree:
-- You must have free hands first!
+- 你必須先空出你的雙手!
 PlayerIsHuntingWerewolves:
-- $PlayerName is now hunting Werewolves!
+- $PlayerName開始獵殺狼人!
 PlayerIsNoLongerHuntingWerewolves:
-- $PlayerName is no longer hunting Werewolves!
+- $PlayerName不再獵殺狼人!
 NoWerewolvesInThisWorld:
-- There are no werewolves in this world ($Type)
+- 這個世界($Type)沒有狼人存在 
 NoPermissionForCommand:
-- You do not have permission for that command
+- 你沒有權限執行這個指令
 WerewolfCommandNumberOfWerewolves:
-- There are currently &f$Amount werewolves&b in $ServerName
+- 目前在&b$ServerName裡有&f$Amount個狼人
 WerewolfCommandIsWerewolf:
-- You are a $Amount $Type Werewolf
+- 你是一個$Amount的$Type狼人
 WerewolfCommandIsNotWerewolf:
-- You are a not a Werewolf
+- 你並不是狼人
 WerewolfCommandNextFullMoon:
-- The next full moon is $Amount
+- 下一個滿月是在$Amount
 WerewolfCommandListCommands:
-- Use &f/werewolf help&b for a list of commands
+- 輸入 &f/werewolf help&b 來取得指令列表
 In7Days:
-- in 7 days.
+- 7天後.
 In6Days:
-- in 6 days.
+- 6天後.
 In5Days:
-- in 5 days.
+- 5天後.
 In4Days:
-- in 4 days.
+- 4天後.
 In3Days:
-- in 3 days.
+- 3天後.
 In2Days:
-- in 2 days.
+- 2天後.
 Tomorrow:
-- tomorrow!
+- 明天!!
 Today:
-- today!
+- 今天!!!
 Transform:
-- It's night, and you feel gooood!
+- 晚上了, 你感到舒暢啊啊啊啊啊!
 Untransform:
-- You just returned to your human form!
+- 你已還原成人型!
 BiteVictim:
-- Ouch! That felt strange...
+- 好痛! 有一種奇怪的感覺...
 BiteAttacker:
-- You infected $PlayerName with your Werewolf infection!
+- 你傳染了你的狼人感染給$PlayerName!
 BiteWildWolf:
-- Ouch! That bite felt really strange...
+- 好痛! 這個被咬的感覺真的很奇怪...
 KilledMob:
-- That was a good kill. You feasted for $Amount health!
+- 這是一個精彩的擊殺. 你獲得了$Amount的生命值!
 WerewolfTryEat:
-- Werewolves do not eat that. You crave meat!
+- 狼人並不吃這個. 你渴望的是肉!
 DrinkInfectionSuccess:
-- Whoa! A warm feeling is flowing through your body...
+- 歐挖! 一股暖流穿透你的身體...
 DrinkInfectionFailure:
-- Hmm... that tastes like water with lemon in it
+- 嗯... 嚐起來像是檸檬水
 DrinkCureSuccess:
-- Hmm... you feel more normal somehow...
+- 嗯... 你覺得自己更平凡了...
 DrinkCureFailure:
-- Hmm... that tastes just like oranges!
+- 嗯... 這嚐起來像是橘子!
 UrgesInfectedThisNight:
-- You feel quite dizzy...
-- That wolf bite starts to burn...
-- That wolf bite looks a little red...
-- Your skin feels itchy...
-- You feel a sudden urge to eat meat
-- You feel a sudden urge gaze at the moon
-- That's odd. You feel an sudden urge to eat meat.
-- Woa... You feel REALLY strange!
+- 你覺得非常暈...
+- 被狼咬傷的部位開始灼燒...
+- 被狼咬傷的部位看起來有點發紅...
+- 你的皮膚開始發癢...
+- 你突然想要吃肉
+- 你突然想要凝視月亮
+- 非常奇怪. 你非常渴望想要吃肉.
+- 挖歐... 你真的感到非常奇怪!
 UrgesInfectedHumanForm:
-- You feel quite dizzy...
-- That wolf bite starts to burn...
-- Your skin feels itchy...
-- You feel a sudden urge to eat meat
-- You feel a sudden urge gaze at the moon
+- 你覺得非常暈...
+- 被狼咬傷的部位開始灼燒...
+- 你的皮膚開始發癢...
+- 你突然非常渴望吃肉
+- 你突然想要凝視月亮
 UrgesInside:
-- You feel an urge go outside...
-- You feel the need to feel the nighttime air outside...
-- You feel a strange urge to go outside...
-- You feel drawn to the moonlight outside...
+- 你感到有股衝動想要去戶外...
+- 你覺得你需要好好感受夜間的戶外空氣...
+- 你感到有股強烈的衝動想要去戶外...
+- 你被戶外的月光所吸引...
 UrgesTransformed:
-- You feel the urge to feast!
-- You feel the need for raw meat
-- You feel dizzy from the moonlight
-- You feel the need to eat meat
-- You feel the urge to gaze at the moon
-- You sense a feeling of fearful animals in the air...
-- You sense the scent of animals in the air...
-- You crave the hunt...
-- Your feel your blood pumping through your veins
-- Your senses are sharpened...
-- Your muscles are urging to move
+- 你有獵食的衝動!
+- 你覺得需要一些生肉
+- 你想凝視月亮
+- 你覺得需要吃些生肉
+- 你有衝動想要凝視月亮
+- 你感到動物的恐懼在空氣中蔓延...
+- 你感空氣中充滿了動物的香味...
+- 你渴望獵殺...
+- 你感到血管在劇烈抽動
+- 你的感知更敏銳了...
+- 你的肌肉告訴你該行動了
 BountyPlayerAdded:
-- $PlayerName added $Amount to the bounty for killing a Werewolf!
+- $PlayerName增加$Amount的狩獵狼人賞金!
 BountyServerAdded:
-- $ServerName added $Amount to the bounty for killing a Werewolf!
+- $ServerName增加$Amount的狩獵狼人賞金!
 BountyTotal:
-- The Werewolf bounty is now $Amount!
+- 狩獵狼人賞金現在總共為$Amount!
 KilledWerewolfBounty:
-- $PlayerName killed a Werewolf and was paid the bounty of $Amount!
+- $PlayerName獵殺了一個狼人並獲得$Amount的賞金!
 KilledWerewolfNoBounty:
-- $PlayerName killed a Werewolf
+- $PlayerName獵殺了一個狼人
 CurePotionDescription1:
-- Drink this to cure yourself from the werewolf infection!
-- Tired of being hairy? Drink this!
-- Don't like being a Werewolf? Drink this!
+- 喝下這個藥水來治癒你的狼人感染!
+- 厭倦了毛茸茸? 喝下這個!
+- 厭倦了狼人生活? 喝下這個!
 CurePotionDescription2:
-- Beware of the aftertaste.
-- Brewed with care.
+- 齒頰留香.
+- 百年釀造.
 InfectionPotionDescription1:
-- Drink this to become a werewolf!
+- 喝下這個你就可以成為狼人!
 InfectionPotionDescription2:
-- The most awesome potion in $ServerName!
-- Must be drunk when the brightest light of the night, shows its true face.
-- Must be drunk during the darkest hour of the brightest night.
-- Must be drunk during the silver night.
-- Must be drunk when the tide is at its highest
-- Must be drunk at night when the magic is strongest
+- $ServerName裡最正點的藥水!
+- 必須在充滿月光的夜裡喝下, 才能顯示出真面目.
+- 必須在最亮夜晚的最黑暗時刻喝下
+- 必須在銀夜喝下.
+- 必須在漲潮最高時喝下
+- 必須在魔力最強的夜晚喝下
 TrophyDescription:
-- Slain by $PlayerName on $Amount
+- 在$Amount被$PlayerName殺死
 InfoCommandHowl:
-- Use &f/howl&b to howl!
+- 輸入 &f/howl&b 來發出狼嚎!
 InfoCommandGrowl:
-- Use &f/growl&b to growl! 
+- 輸入 &f/growl&b 來發出咆嘯! 
