@@ -5,15 +5,15 @@ Version:
 CannotTransformSoSoon:
 - 你無法於短時間內再度變身. 蒐集你的力量並且過會再試!  
 HelpTransform:
-- /werewolf transform&f - 讓你瞬間變成狼人!
+- /werewolf transform&f - 讓你瞬間變成狼人型態!
 WerewolfCommandControlledTransformation:
--   你可控制是否變身為狼人
+-   你可控制是否變身為狼人型態
 WerewolfCommandGoldImmunity:
--   你將不會被黃金製品傷害
+-   黃金製品無法對你造成額外傷害
 WerewolfCommandNoDropItems:
--   處於狼人狀態將不會掉落物品
+-   狼人型態時將不會掉落物品
 WerewolfCommandFullMoonImmunity:
--   你將不會在滿月時變身狼人
+-   滿月時不會強制變身狼人型態
 KilledMobPoints:
 -   你在這個擊殺中取得$Amount&b氏族點數!
 MustExperienceMoreFullMoons:
