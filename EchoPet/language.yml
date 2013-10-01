@@ -91,3 +91,5 @@ admin_no_hidden_pet: '&6%player%&e的寵物目前並沒有隱藏.'
 admin_show_pet: '&6%player%&e的隱藏寵物神奇得出現了!'
 admin_hide_pet: '&6%player%&e的寵物已被隱藏.'
 admin_add_selector: '&6寵物選取器&e已新增到&6%player%&e的身上.'
+admin_reload_config: '&e已重新讀取設定檔.'
+
