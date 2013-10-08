@@ -92,4 +92,6 @@ admin_show_pet: '&6%player%&e的隱藏寵物神奇得出現了!'
 admin_hide_pet: '&6%player%&e的寵物已被隱藏.'
 admin_add_selector: '&6寵物選取器&e已新增到&6%player%&e的身上.'
 admin_reload_config: '&e已重新讀取設定檔.'
+pets_disabled_here: '&e這裡禁止攜帶寵物.'
+enter_pet_disabled_region: '&e進入的地區禁止攜帶寵物. 你的寵物已被隱藏.'
 
