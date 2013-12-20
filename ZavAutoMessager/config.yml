@@ -1,0 +1,77 @@
+# Default config for ZavAutoMessager.
+# Visit http://dev.bukkit.org/server-mods/zavautomessager/ for more help
+# Plugin created by the ZavCoding Team
+# Authors: javoris767 and zachoooo.
+# Make sure all your messages are inside of single quotes. (This makes sure that color and special characters work properly)
+# If you want to make your own line breaks MAKE SURE WORDWRAP IS FALSE!!! Custom line breaks are only supported when wordwrap is off.
+# Update checking requires an internet connection.
+# Set update checking to false if you have no internet connection or you have a very strict firewall.
+
+enabled: true
+wordwrap: true
+delay: 300
+permissionsenabled: false
+chatformat: '[&6提醒&f]: %msg'
+messageinrandomorder: true
+updatechecking: true
+messagesinconsole: true
+requireplayersonline: true
+dontrepeatrandommessages: true
+messages:
+  default:
+  - Moo’s World 官方Blog - http://moosworld.net
+  - Moo’s World HD地圖(每24小時更新) - http://map.moosworld.net
+  - 如果線上地圖出現錯誤 - 按下 SHIFT+F5 來重新讀取.
+  - 'mcMMO 中文說明: 輸入 /mcmmo help'
+  - 箱子鎖中文說明 - http://lock.moosworld.net
+  - 五根羽毛可以合成&l&6奇美拉之翼&f&r, 按下滑鼠右鍵來使用.
+  - 沒事就釣魚吧 - 有機會拿到寶物!
+  - 可以使用鐵錠修理 - 工具/武器/裝備.
+  - 從高處落下時按住 SHIFT - 有機會降低傷害.
+  - 使用工具/武器時按下滑鼠右鍵 - 來觸發技能.
+  - 當玩家/怪物被殺死 - 有機會掉落他們的頭.
+  - '&5終界&f將於每日&d1:00&f重置.'
+  - '&5終界龍&f將於死亡後20分鐘重生.'
+  - 不要小看任何的怪物!
+  - 這是一個硬派風格的伺服器, 請準備好你的武器!
+  - 傳說有巨大化殭屍 !?
+  - 使用 /m 發送私人訊息, /r 回覆私人訊息.
+  - 輸入 /help party 來了解如何組隊.
+  - 輸入 /help rules 來了解玩家守則.
+  - 輸入 /rules 來了解玩家守則.
+  - 使用 /mail 指令來讀取或發送郵件給遊戲內的玩家.
+  - 使用 /ma join 加入怪物競技場, /ma leave 離開怪物競技場.
+  - 已針對 mcMMO 重新設計怪物競技場的職業 - 請協助測試!
+  - 伺服器每日&d1:00&f進行例行重起.
+  - 伺服器已啟用防火(岩漿)功能.
+  - 考慮贊助 Moo’s World, 謝謝你 :) - http://donate.moosworld.net
+  - 贊助玩家可使用的特色功能 :) - http://donate.moosworld.net
+  - '找不到OP嗎? 請至: http://kekeke.cc/moosworld2'
+  - 需要不同版本的 Mod? http://download.moosworld.net
+  - Magic Launcher 讓你快速安裝 mods - http://ml.moosworld.net
+  - 錯誤回報/心得建議 - 請至 http://f.moosworld.net
+  - 請協助回報 mcMMO 中文化臭蟲, 謝謝.
+  - 領地教學影片 - http://goo.gl/jVEBH, 中文說明 - http://gp.moosworld.net
+  - 初始領地有 100 格, 每小時(遊戲時間)額外增加 100 格.
+  - 使用金鏟子(shovel)來規劃領地, 木棒(stick)來顯示領地資訊.
+  - 為了防止你的心血被惡意破壞, 請務必規劃自己的領地.
+  - 血月高漲時, 怪物將會強化.
+  - 血月高漲時, 劍(sword)有機會對怪物造成更多傷害.
+  - 透過和怪物戰鬥的磨練, 你將會更強壯! 輸入 /hp 來查看相關資訊.
+  - 生存手冊 - 輸入 /ibook 取得(時常更新), 必須先把舊的丟掉才能取得最新的手冊.
+  - 如果你被困在領地陷阱裡, 輸入 /trapped 來逃脫.
+  - '新增怪物競技場: The Pit, 請協助測試 !'
+  - 無法輸入中文嗎? 使用 IRC 頻道來和遊戲雙向通話 - http://irc.moosworld.net
+  - 金級以上(含金級)贊助玩家 - 可以招喚/騎乘&c骷髏馬&f!
+  - 你想成為吸血鬼嗎 !? - http://vampire.moosworld.net
+  - 吸血鬼覺醒了 !? - http://vampire.moosworld.net
+  - 厭倦和怪物戰鬥嗎 ? 不如加入它們 - http://vampire.moosworld.net
+  - 吸血鬼害怕木製品/陽光/聖水 - http://vampire.moosworld.net
+  - 吸血鬼擁有更高的攻擊力/更快的移動速度 - http://vampire.moosworld.net
+  - 你想成為狼人嗎 !? - http://werewolf.moosworld.net
+  - 狼人害怕銀(金)製品 - http://werewolf.moosworld.net
+  - 狼人透過獵食怪物回復生命值 - http://werewolf.moosworld.net
+  - 狼人移動的更快, 並可在跳躍時做出撲擊 - http://werewolf.moosworld.net
+  - PvP將於夜晚來臨時自動開啟, 太陽升起時自動關閉.
+  - 如果你的馬兒於伺服器升級 1.6.4 之後消失, 可請 OP 協助處理.
+  - 試試新的 WEB IRC 聊天室來和遊戲雙向通話 - http://irc.moosworld.net
