@@ -445,3 +445,62 @@ Messages:
   InsufficientWorldBlocks:
     Text: 你在這個世界已經佔有太多格領地. 你必須先釋放 {0} 格領地.
     Notes: '0: required claim blocks'
+  AutoSubClaimsEnter:
+    Text: 切換至子領地模式
+  AutoSubClaimsExit:
+    Text: 切換至一般領地模式
+  AutoSubClaimsNoPermission:
+    Text: 你必須擁有這個領地的權限才能劃分子領地.
+  BlockPlacementTooClose:
+    Text: 你無法在靠近其他領地的 {0} 格內創造領地.
+    Notes: 0:Number of max blocks
+  CantSiegeYourself:
+    Text: 你無法對自己發動圍城攻擊!
+  ClaimResizedOtherPlayer:
+    Text: '{0} 的領地已被改變大小. 這個玩家現在還剩下 {1} 格領地.'
+    Notes: 0:Owner of claim;1:Claim blocks remaining.
+  CreateClaimTooFewBlocks:
+    Text: 這個動作需要太多的領地. 你必須擁有 {0} 格以上的領地.
+    Notes: 0:Numberof minimum claim blocks
+  OtherPlayerResizeInsufficientWorldBlocks:
+    Text: '{0} 需要 {1} 格以上的領地才能完成這個動作.'
+    Notes: 0:Player that needs more claim blocks;1:Claim blocks required
+  LoginSpamWaitSeconds:
+    Text: 你必須等待至少 {0} 秒才能再次登入.
+  NoTNTDamageThere:
+    Text: TNT 將不會摧毀這裡的任何方塊.
+  NoTNTExplosionsThere:
+    Text: TNT 將不會炸掉或是傷害這裡的任何東西.
+  ResizeTooFewBlocks:
+    Text: 這個動作並沒有劃分足夠的領地. 領地至少需要 {0} 格.
+    Notes: 0:Minimum blocks in a claim
+  ConfirmationReset:
+    Text: 關於 {0} 的確認已經重置.
+    Notes: 0:Name of confirmation flag
+  StartIgnorePlayer:
+    Text: 從現在開始, 你把 {0} 當作空氣.
+    Notes: 0:Player being ignored
+  StopIgnorePlayer:
+    Text: 你開始注意 {0} 的舉止.
+    Notes: 0:Player being unignored
+  IgnoreInstructions:
+    Text: 如欲忽略玩家, 你可以使用 /ignore 指令.
+  PlayerSoftMuted:
+    Text: 玩家 {0} 暫時無法發言.
+    Notes: 0:Player muted
+  PlayerUnSoftMuted:
+    Text: 玩家 {0} 現在又可以發言了.
+    Notes: 0:Player unmuted
+  HorseOwnerNotOnline:
+    Text: 你無法在 {0} 離線時拿走他的馬.
+    Notes: 0:Player who owns horse
+  PlayerTakesHorse:
+    Text: '{0} 拿走了你其中一匹馬的權限.'
+    Notes: 0:Horse taker
+  PlayerReceivesHorse:
+    Text: 這匹馬現在屬於你的.
+  MountOtherPlayersHorse:
+    Text: 你騎上了 {0} 的馬.
+    Notes: 0:owner of horse
+  NoPermission:
+    Text: 你無法在這裡這麼做.
